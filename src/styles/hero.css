@@ -1,0 +1,67 @@
+.hero{
+    position: relative;
+    min-height: 80vh;
+    background:url('../images/banner.jpg') no-repeat center;
+    background-size: cover;
+}
+.hero-right{
+    height: 100%;
+    padding: 10px;
+}
+
+/* Tabs.css */
+.nav-tabs {
+    border: none;
+    background: #fff;
+    padding: 15px;
+  }
+  
+  .nav-tabs .nav-item {
+    margin-right: 0;
+  }
+  
+  .nav-tabs .nav-link {
+    color: #555;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .nav-tabs .nav-link:hover {
+    background: #f0f0f0;
+    color: #333;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background: var(--primary-color) !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .tab-content {
+    padding: 20px;
+  }
+  
+  .tab-content .tab-pane {
+    display: none;
+  }
+  
+  .tab-content .tab-pane.active {
+    display: block;
+  }
+
+  .hero-card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  .form-control{
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 2px solid #000 !important;
+  }
+
+
+  
