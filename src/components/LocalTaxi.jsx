@@ -18,6 +18,7 @@ function LocalTaxi() {
               placeholder="Enter Location"
               aria-label="Username"
               aria-describedby="basic-addon1"
+              className='p-3'
             />
           </InputGroup>
             </div>
@@ -35,6 +36,7 @@ function LocalTaxi() {
             placeholder='DD-MM-YYYY'
               aria-label="Username"
               aria-describedby="basic-addon1"
+              className='p-3'
             />
           </InputGroup>
             </div>
@@ -52,6 +54,7 @@ function LocalTaxi() {
               placeholder='Select Time'
               aria-label="Username"
               aria-describedby="basic-addon1"
+              className='p-3'
             />
           </InputGroup>
             </div>
@@ -63,7 +66,7 @@ function LocalTaxi() {
             <InputGroup.Text id="basic-addon1">
             <i class="bi bi-hourglass-top text-main"></i>
             </InputGroup.Text>
-            <Form.Select defaultValue="Select Hours">
+            <Form.Select defaultValue="Select Hours" className='p-3'>
             <option>Select Hours</option>
             <option>4 Hours- 40KM</option>
             <option>8 Hours- 80KM</option>
