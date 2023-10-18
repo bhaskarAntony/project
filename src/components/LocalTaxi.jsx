@@ -32,6 +32,7 @@ function LocalTaxi() {
             <Form.Control
             type='date'
             name='date'
+            placeholder='DD-MM-YYYY'
               aria-label="Username"
               aria-describedby="basic-addon1"
             />
@@ -48,6 +49,7 @@ function LocalTaxi() {
             <Form.Control
             type='Time'
             name='time'
+              placeholder='Select Time'
               aria-label="Username"
               aria-describedby="basic-addon1"
             />
