@@ -1,59 +1,30 @@
 import React from 'react'
+import '../styles/book-card.css'
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 function BookForm() {
   return (
-    <div>
-      <div className="card hero-card w-100 p-2 border-0">
-                    <div>
-      <ul className="nav nav-tabs justify-content-between">
-        <li className="nav-item">
-          <a
-            className={`nav-link ${activeTab === 1 ? 'active' : ''}`}
-            onClick={() => handleTabChange(1)}
-          >
-            <i class="bi bi-taxi-front-fill"></i> Local taxi
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${activeTab === 2 ? 'active' : ''}`}
-            onClick={() => handleTabChange(2)}
-          >
-          <i class="bi bi-buildings-fill"></i> Oustation
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${activeTab === 3 ? 'active' : ''}`}
-            onClick={() => handleTabChange(3)}
-          >
-            <i class="bi bi-airplane-fill"></i> Airport
-          </a>
-        </li>
-      </ul>
+    <div className='container bg-white book-card '>
+      <div className="w-100 p-2 border-0">
+      <Tabs
+      defaultActiveKey="profile"
+      id="fill-tab-example"
+      className="mb-3"
+      fill
+    >
+      <Tab eventKey="home" title="OutStation">
+        Tab content for Home
+      </Tab>
+      <Tab eventKey="profile" title="Local">
+        Tab content for Profile
+      </Tab>
+      <Tab eventKey="longer-tab" title="Airport">
+        Tab content for Loooonger Tab
+      </Tab>
+    </Tabs>
 
-      <div className="tab-content">
-        <div
-          className={`tab-pane ${activeTab === 1 ? 'active' : ''}`}
-          id="tab1"
-        >
-         <LocalTaxi/>
         </div>
-        <div
-          className={`tab-pane ${activeTab === 2 ? 'active' : ''}`}
-          id="tab2"
-        >
-          Content for Tab 2
-        </div>
-        <div
-          className={`tab-pane ${activeTab === 3 ? 'active' : ''}`}
-          id="tab3"
-        >
-          Content for Tab 3
-        </div>
-      </div>
-    </div> 
-                    </div>
     </div>
   )
 }

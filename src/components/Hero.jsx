@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../styles/hero.css'
 import herobg from '../images/car-rental.mp4'
 import LocalTaxi from './LocalTaxi';
+import BookForm from './BookForm';
 
 function Hero() {
     const [activeTab, setActiveTab] = useState(1);
@@ -29,6 +30,7 @@ function Hero() {
                 </div>
               </div>
             </div>
+            <BookForm/>
         </div>
   )
 }
