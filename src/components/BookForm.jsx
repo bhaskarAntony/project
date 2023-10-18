@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/book-card.css'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import LocalTaxi from './LocalTaxi';
 
 function BookForm() {
   return (
@@ -17,7 +18,7 @@ function BookForm() {
         Tab content for Home
       </Tab>
       <Tab eventKey="profile" title="Local">
-        Tab content for Profile
+        <LocalTaxi/>
       </Tab>
       <Tab eventKey="longer-tab" title="Airport">
         Tab content for Loooonger Tab
