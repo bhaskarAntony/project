@@ -1,8 +1,10 @@
 import React from 'react'
-import '../styles/book-card.css'
+// import '/'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import LocalTaxi from './LocalTaxi';
+import OutStation from './OutStation';
+import Airport from './Airport';
 
 function BookForm() {
   return (
@@ -15,13 +17,13 @@ function BookForm() {
       fill
     >
       <Tab eventKey="home" title="OutStation">
-        Tab content for Home
+        <OutStation/>
       </Tab>
       <Tab eventKey="profile" title="Local">
         <LocalTaxi/>
       </Tab>
       <Tab eventKey="longer-tab" title="Airport">
-        Tab content for Loooonger Tab
+        <Airport/>
       </Tab>
     </Tabs>
 

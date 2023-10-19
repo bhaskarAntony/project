@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import '../styles/hero.css'
 import herobg from '../images/car-rental.mp4'
-import LocalTaxi from './LocalTaxi';
-import BookForm from './BookForm';
+import LocalTaxi from './RegistrationForm/LocalTaxi';
+import BookForm from './RegistrationForm/BookForm';
 
 function Hero() {
     const [activeTab, setActiveTab] = useState(1);
