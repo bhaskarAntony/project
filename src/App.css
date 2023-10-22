@@ -6,6 +6,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@600&family=Libre+Barcode+39+Extended+Text&family=Libre+Franklin&family=Noto+Sans:wght@300&family=Nunito:wght@500&family=Poppins:wght@400;500;800&family=Press+Start+2P&family=Rubik:wght@500&family=Tilt+Prism&family=Wallpoet&family=Work+Sans:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@600&family=Fira+Sans:wght@900&family=Libre+Barcode+39+Extended+Text&family=Libre+Franklin&family=Noto+Sans:wght@300&family=Nunito:wght@500&family=Poppins:wght@400;500;800&family=Press+Start+2P&family=Rubik:wght@500&family=Tilt+Prism&family=Wallpoet&family=Work+Sans:wght@300&display=swap');
+
 *{
   font-family: 'Arimo', serif;
 }
@@ -17,9 +19,10 @@
 }
 .text-main{
   color: var(--primary-color);
+  font-family: 'Archivo Black', serif;
 }
 .text-800{
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 .text-900{
   font-weight: 900 !important;
@@ -47,18 +50,27 @@
 }
 .heading{
   font-size: 3rem;
+  font-family: 'Fira Sans', sans-serif;
+  color: #232323 !important;
+}
+.serif{
+  font-family: 'Fira Sans', sans-serif !important;
 }
 .banner-heading{
   font-size: 2rem;
   font-weight: 600;
-  color: #031B4E;
+  color: #121212;
+  font-family: 'Fira Sans', sans-serif;
   text-align: center;
   width: 100%;
   padding: 20px;
 }
+.text-bold{
+      font-family: "Archivo Black", sans-serif;
+}
 .subtitle{
   font-size: 1.1rem;
-  color: #373737;
+  font-weight: 100;
 }
 .nav-text{
   font-size: 1.3rem;
@@ -66,10 +78,15 @@
 .card-heading{
   font-size: 1.3rem;
   color: #000;
-  font-weight: bold;
+}
+.text-lighter{
+  color: #7d7c7c !important;
 }
 .anim-img{
 animation: img-anim 1s linear infinite alternate;
+}
+.form-control, .form-select{
+  background-color: #f9f9f9 !important;
 }
 @keyframes img-anim{
   from{
@@ -88,7 +105,7 @@ animation: img-anim 1s linear infinite alternate;
 
   }
   .hero-btn{
-    min-width: 100%;
+    min-width: 100% !important;
     margin-bottom: 10px;
   }
   .subtitle{
