@@ -3,7 +3,7 @@ import '../styles/features.css'
 
 function Features() {
   return (
-    <div className='container'>
+    <div className='container bg-blur'>
       <div className="text-center">
       <h1 className="banner-heading text-900">
              Our Features
@@ -12,7 +12,7 @@ function Features() {
       </div>
       <div className="row p-3">
         <div className="col-12 col-md-12 col-lg-4">
-            <div className="feature mt-2">
+            <div className="feature mt-2 bg-white p-2 rounded-3 border-b">
                 <div className="f-icon float-lg-end mx-2 mb-3">
                 <i class="bi bi-1-circle-fill"></i>
                 </div>
@@ -21,7 +21,7 @@ function Features() {
                     <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.</p>
                 </div>
             </div>
-            <div className="feature mt-5">
+            <div className="feature mt-5 bg-white p-2 rounded-3 border-b">
                 <div className="f-icon float-lg-end mx-2 mb-3">
                 <i class="bi bi-check2-circle"></i>
                 </div>
@@ -35,7 +35,7 @@ function Features() {
             <img src="https://www.madebydesignesia.com/themes/rentaly/images/misc/car.png" alt="" className='w-100 anim-img mt-5' />
         </div>
             <div className="col-12 col-md-12 col-lg-4">
-            <div className="feature mt-2">
+            <div className="feature mt-2 bg-white p-2 rounded-3 border-b">
                 <div className="f-icon float-lg-end mx-2 mb-3">
                 <i class="bi bi-award-fill"></i>
                 </div>
@@ -44,7 +44,7 @@ function Features() {
                     <p>Unlocking affordable brilliance with elevating quality while minimizing costs for maximum value.</p>
                 </div>
             </div>
-            <div className="feature mt-5">
+            <div className="feature mt-5 bg-white p-2 rounded-3 border-b">
                 <div className="f-icon float-lg-end mx-2 mb-3">
                 <i class="bi bi-suitcase2-fill"></i>
                 </div>
