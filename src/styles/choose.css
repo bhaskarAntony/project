@@ -1,0 +1,20 @@
+.choose{
+    position: relative;
+    z-index: 2;
+}
+.choose-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.choose-card-image{
+    width: 200px;
+    height: 200px;
+}
+.choose-card{
+    z-index: 4;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 100%;
+}

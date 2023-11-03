@@ -39,6 +39,9 @@
 *{
   font-family: "DM Sans",sans-serif !important;
 }
+.bg-gray1{
+  background: var(--gray2) !important;
+}
 .bg-blur{
   background: url(https://demo.themewinter.com/wp/courselog/wp-content/uploads/2020/12/testimonial_bg.png) no-repeat center;
   background-size: cover;

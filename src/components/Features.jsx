@@ -3,12 +3,12 @@ import '../styles/features.css'
 
 function Features() {
   return (
-    <div className='container bg-blur'>
+    <div className='container-fluid bg-blur py-5'>
       <div className="text-center">
-      <h1 className="banner-heading text-900">
+      <h1 className="fs-1  text-900">
              Our Features
       </h1>
-      <p className='subtitle text-lighter'>Discover a world of convenience, safety, and customization, paving the way for unforgettable adventures <br /> and seamless mobility solutions.</p>
+      <p className='fs-5 text-lighter'>Discover a world of convenience, safety, and customization, paving the way for unforgettable adventures <br /> and seamless mobility solutions.</p>
       </div>
       <div className="row p-3">
         <div className="col-12 col-md-12 col-lg-4">
@@ -18,7 +18,7 @@ function Features() {
                 </div>
                 <div className="f-body">
                     <p className='card-heading serif text-900'><b>First class services</b></p>
-                    <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.</p>
+                    <p className='fs-5'>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.</p>
                 </div>
             </div>
             <div className="feature mt-5 bg-white p-2 rounded-3 border-b">
@@ -27,7 +27,7 @@ function Features() {
                 </div>
                 <div className="f-body">
                     <p className='card-heading'><b>24/7 road assistance</b></p>
-                    <p>Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
+                    <p className='fs-5'>Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@ function Features() {
                 </div>
                 <div className="f-body">
                     <p className='card-heading '><b>Quality at Minimum Expense</b></p>
-                    <p>Unlocking affordable brilliance with elevating quality while minimizing costs for maximum value.</p>
+                    <p className='fs-5'>Unlocking affordable brilliance with elevating quality while minimizing costs for maximum value.</p>
                 </div>
             </div>
             <div className="feature mt-5 bg-white p-2 rounded-3 border-b">
@@ -50,7 +50,7 @@ function Features() {
                 </div>
                 <div className="f-body">
                     <p className='card-heading text-bold text-900'><b>Free Pick-Up & Drop-Off</b></p>
-                    <p>Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
+                    <p className='fs-5'>Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
                 </div>
             </div>
             </div>

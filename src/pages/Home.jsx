@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
 import Services from '../components/Services'
+import Choose from '../components/Choose'
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Hero/>
       <Features/>
       <Services/>
+      <Choose/>
     </div>
   )
 }
