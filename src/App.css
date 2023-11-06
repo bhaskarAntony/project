@@ -47,7 +47,7 @@
   background-size: cover;
 }
 .bg-light-blue{
-  background: var(--blue-light);
+  background: var(--blue-light) !important;
 }
 .border-left{
   border-left: 4px solid var(--primary-color)
@@ -63,7 +63,6 @@
 }
 .text-main{
   color: var(--primary-color);
-  font-family: 'Archivo Black', serif;
 }
 .text-800{
   font-weight: 800 !important;
@@ -71,7 +70,7 @@
 .text-900{
   font-weight: 900 !important;
 }
-.main-btn{
+.main-btn, .gray-btn{
   border: none;
   padding: 10px;
   font-size: 1.2rem;
@@ -80,6 +79,9 @@
   background-color: var(--primary-color);
   min-width: 150px;
   font-weight: 500;
+}
+.gray-btn{
+  background-color: var(--gray2) !important;
 }
 .btn-outline{
   border: none;
@@ -94,17 +96,12 @@
 }
 .heading{
   font-size: 3rem;
-  font-family: 'Fira Sans', sans-serif;
   color: #232323 !important;
-}
-.serif{
-  font-family: 'Fira Sans', sans-serif !important;
 }
 .banner-heading{
   font-size: 2rem;
   font-weight: 600;
   color: #121212;
-  font-family: 'Fira Sans', sans-serif;
   text-align: center;
   width: 100%;
   padding: 20px;
