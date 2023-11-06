@@ -28,25 +28,22 @@ function Header() {
          <ul className='text-black list-unstyled  p-0'>
           <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Home</a></li>
           <hr />
+          <p className="fs-5 text-main">Our Services</p>
+          <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Taxi for Locals</a></li>
+          <hr />
+          <li className="nav-item"><a href="/" className="nav-link text-black nav-text">cabs for Outstation</a></li>
+          <hr />
+          <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Airport taxi</a></li>
+          <hr />
+          <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Luxury Car Rental</a></li>
+          <hr />
+          
           <li className="nav-item">
-          <div class="dropdown">
-          <a class=" dropdown-toggle nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services
-          </a>
-          <ul class="dropdown-menu w-100">
-            <li><a class="dropdown-item" href="#">Taxi For Local</a>
-            </li>
-            <li><a class="dropdown-item" href="#">cabs for Outstation</a></li>
-            <li><a class="dropdown-item" href="#">Airport taxi</a></li>
-            <li><a class="dropdown-item" href="#">Luxury Car Rental</a></li>
-          </ul>
-        </div>
-        <hr />
         <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Employee Transportation</a></li>
           <hr />
-          <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Tours and Travels</a></li>
-          <hr />
           <li className="nav-item"><a href="/" className="nav-link text-black nav-text">About Us</a></li>
+          <hr />
+          <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Contact Us</a></li>
           <hr />
           <a href="/register" className='text-decoration-none mb-3'>
      <button class="w-100 main-btn w-100" type="button"><i class="bi bi-taxi-front"></i> Book a Car</button>
@@ -75,35 +72,14 @@ function Header() {
             <li className='list-group-item'><a class="dropdown-item" href="#">Luxury Car Rental</a></li>   
           </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Wedding Car Rental<i class="bi bi-chevron-down"></i>
-          </a>
-          <ul class="dropdown-menu">
-            <li className='list-group-item'><a class="dropdown-item" href="/gallery">Gallery</a></li>
-            <li className='list-group-item'><a class="dropdown-item" href="/blogs">Blogs</a></li>     
-            <li className='list-group-item'><a class="dropdown-item" href="/events">Events</a></li>   
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/">Taxi for Local</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            About Us <i class="bi bi-chevron-down"></i>
-          </a>
-          <ul class="dropdown-menu list-group">
-            <li className='list-group-item'><a class="dropdown-item" href="/about">Why Be Practical?</a></li>
-            <li className='list-group-item'><a class="dropdown-item" href="/contacts">Contact Us</a></li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/">Airport taxi</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            For Companies <i class="bi bi-chevron-down"></i>
-          </a>
-          <ul class="dropdown-menu">
-            <li className='list-group-item'><a class="dropdown-item" href="#">Corporate Training</a></li>
-            <li className='list-group-item'><a class="dropdown-item" href="#">HR Services</a></li>     
-            <li className='list-group-item'><a class="dropdown-item" href="/contacts">Hire Trained Graduates</a></li>   
-          </ul>
-        </li>
+        <li className='nav-item'><a class="nav-link" href="/about">Why RSR Tours & Travels</a></li>
+        <li className='nav-item'><a class="nav-link" href="/contacts">Contact Us</a></li>
         <li className="nav-item mx-3 mt-2">
        
         </li>
