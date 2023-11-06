@@ -95,7 +95,7 @@ function OneDayTrips() {
           <div className="row w-100 d-flex justify-conent-center">
 
             {slideItems.map((item) => (
-                <div className="col-12 col-md-6 col-lg-4">
+                <div className="col-12 col-md-6 col-lg-4  d-flex align-items-center w-100 justify-content-center">
               <div className="trip-card rounded-4 border-b p-2" data-aos="zoom-in-left">
                 <div className="trip-card-header p-2">
                         <img src={item.image} alt="" className='w-100 rounded-3' />
