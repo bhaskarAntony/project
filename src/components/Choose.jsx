@@ -29,14 +29,14 @@ function Choose() {
             </p>
         </div>
         <img src="https://dreamsrent.dreamguystech.com/html/assets/img/bg/facts-left.png" alt="choose-image" className="choose-img" />
-    <div className="container p-lg-2 p-5">
+    <div className="container p-lg-2 p-2">
     <div className="row">
        {
         choosedata.map((item, index)=>(
-            <div className="col-12 col-md-4 col-lg-3 mb-3 d-flex justify-content-center" key={index}>
-                <div className="choose-card bg-white text-center rounded-2 border-b ">
+            <div className="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center" key={index}>
+                <div className="choose-card bg-white text-center rounded-2 border-b p-3">
                     <img src={item.image} alt="" className='w-100 mb-3 choose-card-image'/>
-                    <h1 className="fs-2 text-900">{item.title}</h1>
+                    <h1 className="fs-lg-2 fs-4 text-900">{item.title}</h1>
                 </div>
             </div>
         ))

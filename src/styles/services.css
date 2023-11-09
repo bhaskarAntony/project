@@ -1,8 +1,11 @@
-.services{
-
-}
 .service-card{
     padding: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-bottom: 20px;
+    height: 100%;
+}
+.service-card img:hover{
+    transform: scale(1.8);
+    transition: 0.8s;
+    cursor: pointer;
 }
