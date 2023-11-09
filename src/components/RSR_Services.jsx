@@ -32,7 +32,7 @@ function RSR_Services() {
        <div className="row">
             {
                 Services.map((item, index)=>(
-                    <div className="col-12 col-md-6 col-lg-3 mb-3" key={index}>
+                    <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-3" key={index}>
                         <div className="service-card  border p-0 overflow-hidden rounded-3 bg-white">
                            <div className="overflow-hidden">
                            <img src={item.image} alt={item.title} className="w-100" />

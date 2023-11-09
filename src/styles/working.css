@@ -2,8 +2,14 @@
     min-height: 70vh;
 }
 .working-card{
-    position: absolute;
-    min-height: 200px;
+    position: relative;
+    min-height: 250px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 80px;
 }
 .working-icon{
     position: absolute;
@@ -19,6 +25,23 @@
     font-size: 3rem;
     color: #fff;
 }
-.working-icon:nth-child(odd){
-    background-color: var(--red);
+
+.working-count{
+    position: absolute;
+    bottom: -25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--gray-dark);
+    border-radius: 100px;
+    color: #fff;
+}
+.working-header{
+    min-height: 100px;
+    background-color: var(--wc-secondary);
+    border-radius: 20px 20px 0 0;
 }
