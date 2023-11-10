@@ -8,13 +8,10 @@
     left: 0;
     z-index: -1;
 }
-.choose-card-image{
-    width: 80px;
-    height: 150px;
-}
 .choose-card{
     z-index: 4;
     min-height: 100%;
     overflow: hidden;
+    width: 100%;
 
 }

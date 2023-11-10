@@ -29,7 +29,7 @@ function Cars() {
     <div className="bg-light-blue py-5">
         <h1 className="text-center fs-1 text-900">Available Cars for <span className="text-main">
         Rent</span></h1>
- <section className='cars container p-lg-5 p-5'>
+ <section className='cars container p-lg-5 p-2'>
         <div className="row">
             {
                 carsData.map((item, index)=>(

@@ -26,19 +26,19 @@ const Services = [
 function RSR_Services() {
 
   return (
-    <div className='bg-light-blue'>
+    <div className='bg-light-blue py-5'>
         <h1 className="text-center text-900 fs-1 py-2">RSR Tours & Travels Services</h1>
-       <div className="container p-2">
+       <div className="container p-4">
        <div className="row">
             {
                 Services.map((item, index)=>(
                     <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3" key={index}>
                         <div className="service-card  border p-0 overflow-hidden rounded-5 bg-white p-2">
-                           <div className="overflow-hidden">
-                           <img src={item.image} alt={item.title} className="w-100" />
+                           <div className="overflow-hidden rounded-4">
+                           <img src={item.image} alt={item.title} className="w-100 rounded-4" />
                            </div>
-                           <div className="service-card-body d-flex flex-column justify-content-around p-2 pt-5">
-                           <p className="fs-3">{item.title}</p>
+                           <div className="service-card-body d-flex flex-column justify-content-around p-2 pt-2">
+                           <p className="fs-3 text-900">{item.title}</p>
                             <p className="fs-5 text-secondary">{item.description}</p>
                             <Link to='/' className='main-btn text-center text-decoration-none'>
                                 Learn More

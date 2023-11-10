@@ -54,12 +54,7 @@
 *{
   font-family: "DM Sans",sans-serif !important;
 }
-.bg-green{
-  background-color: var(--primary-green);
-}
-.bg-green-2{
-  background-color: var(--secondary-green);
-}
+
 .bg-gray1{
   background: var(--gray2) !important;
 }
@@ -67,8 +62,18 @@
   background: url(https://demo.themewinter.com/wp/courselog/wp-content/uploads/2020/12/testimonial_bg.png) no-repeat center;
   background-size: cover;
 }
+.bg-texture{
+  background: url(https://www.wordpress.codeinsolution.com/carveo/wp-content/uploads/sites/32/2023/09/Background-2@2x-e1694589743783.png) no-repeat center;
+  background-size: cover;
+}
 .bg-light-blue{
   background: var(--blue-light) !important;
+}
+.bg-green{
+  background-color: var(--primary-green);
+}
+.bg-green-2{
+  background-color: var(--secondary-green);
 }
 .border-left{
   border-left: 4px solid var(--primary-green)

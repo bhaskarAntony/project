@@ -3,7 +3,7 @@ import '../styles/features.css'
 
 function Features() {
   return (
-    <div className='container-fluid  bg-green py-5 p-3'>
+    <div className='container-fluid  bg-green py-5 p-3 bg-texture'>
       <div className="row">
         <div className="col-12 col-md-6 col-lg-3">
             <div className="feature-card">
