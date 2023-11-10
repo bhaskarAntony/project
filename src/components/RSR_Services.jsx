@@ -28,12 +28,12 @@ function RSR_Services() {
   return (
     <div className='bg-light-blue'>
         <h1 className="text-center text-900 fs-1 py-2">RSR Tours & Travels Services</h1>
-       <div className="container-fluid p-5">
+       <div className="container p-2">
        <div className="row">
             {
                 Services.map((item, index)=>(
-                    <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-3" key={index}>
-                        <div className="service-card  border p-0 overflow-hidden rounded-5 bg-white">
+                    <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3" key={index}>
+                        <div className="service-card  border p-0 overflow-hidden rounded-5 bg-white p-2">
                            <div className="overflow-hidden">
                            <img src={item.image} alt={item.title} className="w-100" />
                            </div>
