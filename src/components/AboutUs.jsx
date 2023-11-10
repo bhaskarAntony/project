@@ -3,7 +3,7 @@ import '../styles/about.css'
 import { Link } from 'react-router-dom'
 function AboutUs() {
   return (
-    <section className='about-section container-fluid bg-gray1 p-lg-5 p-3'>
+    <section className='about-section container-fluid bg-black p-lg-5 p-3'>
       <div className="row align-items-center">
         <div className="col-12 col-md-6 col-lg-6">
             <img src="https://img.freepik.com/free-photo/front-view-women-dealership_23-2148266076.jpg?w=740&t=st=1699529808~exp=1699530408~hmac=818da744c2e6c1849f084975eefdd7a9364a345de72f234c69bb96b4eac39b46" alt="" className="w-100 mb-4" />

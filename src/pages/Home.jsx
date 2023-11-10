@@ -7,11 +7,13 @@ import OneDayTrips from '../components/OneDayTrips'
 import RSR_Services from '../components/RSR_Services'
 import AboutUs from '../components/AboutUs'
 import Working from '../components/Working'
+import FaqSection from '../components/FaqSection'
+import HomeHero from '../components/HomeHero'
 
 function Home() {
   return (
     <div>
-      <Hero/>
+      <HomeHero/>
       <Features/>
       <Working/>
       <RSR_Services/>
@@ -19,6 +21,7 @@ function Home() {
       <Cars/>
       <OneDayTrips/>
       <AboutUs/>
+      <FaqSection/>
     </div>
   )
 }

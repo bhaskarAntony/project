@@ -13,13 +13,13 @@ function OutStation() {
        <Tabs
       defaultActiveKey="profile"
       id="fill-tab-example"
-      className="mb-3"
+      className="m-0 mb-3 p-0"
       fill
     >
-      <Tab eventKey="home" title="One-Way Trip ">
+      <Tab eventKey="home" title="One-Way Trip " className="p-0 m-0">
         <OnewayTrip/>
       </Tab>
-      <Tab eventKey="profile" title="Round Trip">
+      <Tab eventKey="profile" title="Round Trip" className="p-0 m-0">
         <RoundTrip/>
       </Tab>
     </Tabs>

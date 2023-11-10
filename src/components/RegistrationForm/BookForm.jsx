@@ -1,5 +1,4 @@
 import React from 'react'
-// import '/'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import LocalTaxi from './LocalTaxi';
@@ -13,16 +12,16 @@ function BookForm() {
       <Tabs
       defaultActiveKey="profile"
       id="fill-tab-example"
-      className="mb-3"
+      className="mb-3 p-0"
       fill
     >
-      <Tab eventKey="home" title="OutStation">
+      <Tab eventKey="home" title="OutStation" className="p-0 m-0 text-900">
         <OutStation/>
       </Tab>
-      <Tab eventKey="profile" title="Local">
+      <Tab eventKey="profile" title="Local" className="p-0 m-0 text-900">
         <LocalTaxi/>
       </Tab>
-      <Tab eventKey="longer-tab" title="Airport">
+      <Tab eventKey="longer-tab" title="Airport" className="p-0 m-0 text-900">
         <Airport/>
       </Tab>
     </Tabs>

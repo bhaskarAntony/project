@@ -21,7 +21,7 @@ const choosedata = [
 ]
 function Choose() {
   return (
-    <section className='choose bg-gray1 container-fluid py-5'>
+    <section className='choose bg-green-2 container-fluid py-5'>
         <div className="text-center">
             <h1 className="fs-1 text-900 text-white">Why You Choose Us?</h1>
             <p className="text-white fs-5">

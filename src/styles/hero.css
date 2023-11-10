@@ -4,9 +4,17 @@
     background:url('../images/banner.jpg') no-repeat center;
     background-size: cover;
 }
+.home-hero{
+  min-height: 80vh;
+  background:linear-gradient(45deg, #000000, #000000b5),  url(https://www.madebydesignesia.com/themes/rentaly/images/background/6.jpg) no-repeat center;
+  background-size: cover;
+}
 .hero-right{
     height: 100%;
     padding: 10px;
+}
+.book-card{
+
 }
 
 /* Tabs.css */
@@ -36,7 +44,7 @@
   }
   
   .nav-tabs .nav-link.active {
-    background: var(--primary-color) !important;
+    background: var(--secondary-green) !important;
     color: #fff !important;
     border: none;
     border-radius: 0;
