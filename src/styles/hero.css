@@ -34,7 +34,7 @@
     border: 1px solid #cfcfcf !important;
     border-radius: 0;
     padding: 15px 20px;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     font-weight: bolder;
     transition: background-color 0.3s;
     cursor: pointer;
