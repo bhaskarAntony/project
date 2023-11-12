@@ -2,11 +2,15 @@ import React from 'react'
 
 function CarBook() {
   return (
-    <div className='carBook p-5'>
+    <div className='carBook p-5 pt-3 pb-5'>
       <form action="post">
         <div className="form-group mb-3">
             <label htmlFor="name" className="form-label">Name</label>
             <input type="text" name='name' placeholder='Your Name' className="form-control p-3" />
+        </div>
+        <div className="form-group mb-3">
+            <label htmlFor="phone" className="form-label">Mobile Number</label>
+            <input type="text" name='phone' placeholder='Your Phone Number' className="form-control p-3" />
         </div>
         <div className="form-group mb-3">
             <label htmlFor="email" className="form-label">Email</label>

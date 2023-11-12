@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import './style.css'; // Create a CSS file for styling
+import ApplyNow from '../ApplyNow';
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,12 +39,12 @@ const ScrollToTopButton = () => {
   return (
    <div className='text-center'>
 
-<button
-      className={`scroll-to-top ${isVisible ? 'visible' : ''} main-btn`}
+<div
+      className={`scroll-to-top ${isVisible ? 'visible' : ''} `}
       onClick={scrollToTop}
     >
-     Book a Car<i class="bi bi-chevron-double-right"></i>
-    </button>
+    <ApplyNow text={'Check Avail Cars'}/><i class="bi bi-chevron-double-right"></i>
+    </div>
    </div>
   );
 };
