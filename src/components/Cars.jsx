@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/cars.css'
+import { Link } from 'react-router-dom'
 
 const carsData = [
     {
@@ -22,7 +23,28 @@ const carsData = [
         image:"https://img.freepik.com/free-photo/white-offroader-jeep-parking_114579-4007.jpg?size=626&ext=jpg&ga=GA1.1.874872603.1694171926&semt=ais",
         company:"sedan",
         categorie:"day"
-    }   
+    },
+    {
+        name:"sedan",
+        price:"120",
+        image:"https://img.freepik.com/free-photo/white-offroader-jeep-parking_114579-4007.jpg?size=626&ext=jpg&ga=GA1.1.874872603.1694171926&semt=ais",
+        company:"sedan",
+        categorie:"day"
+    },
+    {
+        name:"sedan",
+        price:"120",
+        image:"https://img.freepik.com/free-photo/white-offroader-jeep-parking_114579-4007.jpg?size=626&ext=jpg&ga=GA1.1.874872603.1694171926&semt=ais",
+        company:"sedan",
+        categorie:"day"
+    },
+    {
+        name:"sedan",
+        price:"120",
+        image:"https://img.freepik.com/free-photo/white-offroader-jeep-parking_114579-4007.jpg?size=626&ext=jpg&ga=GA1.1.874872603.1694171926&semt=ais",
+        company:"sedan",
+        categorie:"day"
+    }  
 ]
 function Cars() {
   return (
@@ -64,7 +86,17 @@ function Cars() {
                               
                             
                                 </div>
-                                <button className="gray-btn fs-6 w-100 mt-2"> <i class="bi bi-calendar-minus mx-2"></i>RENT NOW</button>
+                                <div className="row mt-3">
+                                    <div className="col-6">
+                                    <button className="gray-btn fs-6 py-3"> <i class="bi bi-calendar-minus mx-2"></i>RENT NOW</button>
+                                    </div>
+                                    <div className="col-6">
+                               <Link to='/' className='text-decoration-none'><button className="main-btn py-3 fs-6">Know More</button></Link>
+                                </div>
+                                
+                               
+                              
+                               </div>
                             </div>
                         </div>
                     </div>

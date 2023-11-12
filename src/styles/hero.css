@@ -4,6 +4,17 @@
     background:url('../images/banner.jpg') no-repeat center;
     background-size: cover;
 }
+.home-hero .carousel-control-prev{
+  display: none;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background: #078d3d;
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+  border-radius: 100px;
+  padding: 10px !important;
+
+}
 .home-hero{
   min-height: 80vh;
   background:linear-gradient(45deg, #000000, #000000b5),  url(https://www.madebydesignesia.com/themes/rentaly/images/background/6.jpg) no-repeat center;

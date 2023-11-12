@@ -33,7 +33,7 @@ function Choose() {
     <div className="row">
        {
         choosedata.map((item, index)=>(
-            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center" key={index}>
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center" key={index}>
                 <div className="choose-card text-center rounded-4 border-b p-3">
                     <i className={`bi ${item.image}`}></i>
                     <h1 className="fs-lg-2 fs-4 text-900 mt-3">{item.title}</h1>

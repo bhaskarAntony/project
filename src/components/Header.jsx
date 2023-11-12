@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Dropdown } from 'bootstrap';
 import ApplyNow from '../Helpers/ApplyNow';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -44,13 +45,11 @@ function Header() {
           <hr />
           <li className="nav-item"><a href="/about" className="nav-link text-black nav-text">About Us</a></li>
           <hr />
-          <li className="nav-item"><a href="/contact" className="nav-link text-black nav-text">Contact Us</a></li>
-          <hr />
           <a href="/register" className='text-decoration-none mb-3'>
      <button class="w-100 main-btn w-100" type="button"><i class="bi bi-taxi-front"></i> Book a Car</button>
      </a>
      <a href="/register" className='text-decoration-none'>
-     <button class="w-100 main-btn bg-black w-100 mt-4" type="button"><i class="bi bi-person-lines-fill"></i> Contact Us</button>
+     <a href='/contact' class="w-100 main-btn bg-black w-100 mt-4 text-decoration-none d-flex align-items-center justify-content-center gap-2" type="button"><i class="bi bi-person-lines-fill"></i> Contact Us</a>
      </a>
           </li>
          </ul>

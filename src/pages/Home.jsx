@@ -9,6 +9,7 @@ import AboutUs from '../components/AboutUs'
 import Working from '../components/Working'
 import FaqSection from '../components/FaqSection'
 import HomeHero from '../components/HomeHero'
+import ContactNumber from '../components/ContactNumber'
 
 function Home() {
   return (
@@ -16,10 +17,11 @@ function Home() {
       <HomeHero/>
       <Working/>
       <Features/>
+      <ContactNumber/>
       <RSR_Services/>
       <Choose/>
       <Cars/>
-      <OneDayTrips/>
+      {/* <OneDayTrips/> */}
       <AboutUs/>
       <FaqSection/>
     </div>

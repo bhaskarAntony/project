@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { Carousel } from 'react-bootstrap';
 import ReadMore from '../Helpers/ReadMore';
 import '../styles/trips.css'
 
@@ -31,70 +30,55 @@ const oneDaytripData = [
     
 ]
 function OneDayTrips() {
-    const [itemsPerSlide, setItemsPerSlide] = useState(3);
-    const [carouselInterval, setCarouselInterval] = useState(1500);
-    const [carouselPaused, setCarouselPaused] = useState(false);
-      
-    useEffect(() => {
-        const handleResize = () => {
-          // Adjust the number of items per slide based on the screen width
-          if (window.innerWidth < 800) {
-            setItemsPerSlide(1);
-            setCarouselInterval(1000);
-          }
-          else if(window.innerWidth < 1260) {
-              setItemsPerSlide(2);
-              setCarouselInterval(1500);
-            } else {
-            setItemsPerSlide(3);
-            setCarouselInterval(1500);
-          }
-        };
-    
-        window.addEventListener('resize', handleResize);
-        handleResize();
-    
-        return () => {
-          window.removeEventListener('resize', handleResize);
-        };
-      }, []);
-    
-      const handleCarouselHover = () => {
-        // Pause the Carousel when the user hovers over it
-        setCarouselPaused(true);
-      };
-    
-      const handleCarouselLeave = () => {
-        // Resume the Carousel when the user stops hovering
-        setCarouselPaused(false);
-      };
-    
-  
-    const carouselItems = oneDaytripData.reduce((accumulator, current, index) => {
-      if (index % itemsPerSlide === 0) {
-        accumulator.push([]);
+  const [slidesToShow, setSlidesToShow] = useState(3); // Default to showing 3 slides
+  useEffect(() => {
+    // Check the screen width and update the number of slides to show
+    const handleResize = () => {
+      if (window.innerWidth <= 600) {
+        setSlidesToShow(1); // On smaller screens, show only 1 slide
+
       }
-      accumulator[accumulator.length - 1].push(current);
-      return accumulator;
-    }, []);
+      else if(window.innerWidth<=800) {
+        setSlidesToShow(2); // On wider screens, show 3 slides
+      } else if(window.innerWidth<=900) {
+        setSlidesToShow(2); // On wider screens, show 3 slides
+      }
+     
+      else{
+          setSlidesToShow(3); // On wider screens, show 3 slides
+      }
+    };
+  
+    // Call the handleResize function initially and add a resize event listener
+    handleResize();
+    window.addEventListener('resize', handleResize);
+  
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+      const settings = {
+          dots: false,
+          infinite: true,
+          speed: 500,
+          slidesToShow: slidesToShow,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000, // Change delay as needed
+          prevArrow: <button className="slick-prev">Previous</button>, // Add previous arrow
+          nextArrow: <button className="slick-next">Next</button>, // Add next arrow
+        };
   return (
     <section className='one-day-trips container-fluid bg-blur py-5'>
         <h1 className="fs-1 text-center text-900">One day <span className="text-main">
         Trips</span></h1>
         <p className="fs-5 text-center text-secondary">
 "Discover One-Day Wonders: Unforgettable Day Trips <br /> Just a Stone's Throw Away"</p>
-     <Carousel
-      interval={carouselInterval}
-      >
-      {carouselItems.map((slideItems, index) => (
-        <Carousel.Item key={index}
-          onMouseEnter={handleCarouselHover}
-          onMouseLeave={handleCarouselLeave}
-        >
-          <div className="container ">
+<div className="container ">
           <div className="row w-100 d-flex justify-conent-center">
-
-            {slideItems.map((item) => (
+          <s {...settings}>
+            {oneDaytripData.map((item) => (
                 <div className="col-12 col-md-6 col-lg-4 ">
               <div className="trip-card rounded-4 border-b p-2" data-aos="zoom-in-left">
                 <div className="trip-card-header p-2">
@@ -110,11 +94,9 @@ function OneDayTrips() {
               </div>
                 </div>
             ))}
+            </s>
               </div>
           </div>
-        </Carousel.Item>
-      ))}
-    </Carousel>
     </section>
   )
 }

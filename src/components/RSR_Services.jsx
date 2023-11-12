@@ -40,7 +40,7 @@ function RSR_Services() {
                            <div className="service-card-body d-flex flex-column justify-content-around p-2 pt-2">
                            <p className="fs-3 text-900">{item.title}</p>
                             <p className="fs-5 text-secondary">{item.description}</p>
-                            <Link to='/' className='main-btn text-center text-decoration-none'>
+                            <Link to='/' className='text-center text-main fs-5'>
                                 Learn More
                            </Link>
                            </div>
