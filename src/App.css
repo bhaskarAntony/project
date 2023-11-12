@@ -81,7 +81,7 @@
   background: var(--blue-light) !important;
 }
 .bg-green{
-  background-color: var(--primary-green);
+  background-color: var(--primary-green) !important;
 }
 .bg-green-2{
   background-color: var(--secondary-green);

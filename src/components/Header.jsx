@@ -12,7 +12,7 @@ function Header() {
   const handleShow = () => setShow(true);
   return (
     <header>
-      <div className="nav-top bg-black text-white ">
+      <div className="nav-top bg-green text-black fw-bold ">
         <p className="p-dark-small m-0">Outstanding cabs, Airport taxi, Hourly Car rental, Luxury cars rental<b>in Bangalore <i class="bi bi-arrow-right"></i></b></p>
       </div>
       <nav class="navbar navbar-expand-lg">
