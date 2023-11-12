@@ -29,11 +29,11 @@ function Cars() {
     <div className="bg-light-blue py-5">
         <h1 className="text-center fs-1 text-900">Available Cars for <span className="text-main">
         Rent</span></h1>
- <section className='cars container p-lg-5 p-2'>
-        <div className="row">
+ <section className='cars container p-lg-5 p-3'>
+        <div className="row justify-content-center">
             {
                 carsData.map((item, index)=>(
-                    <div className="col-12 col-md-2 col-lg-4">
+                    <div className="col-12 col-md-2 col-lg-4 d-flex justify-content-center">
                         <div className="car-card bg-white p-3">
                             <div className="car-header">
                                 <div className="car-card-hightlights d-flex justify-content-end">
@@ -45,11 +45,11 @@ function Cars() {
                             <div className="car-card-body">
                             <p className="mt-2 fs-3 text-900"><i class="bi bi-taxi-front-fill mx-2"></i>{item.name}</p>
                                 <div className="rating d-flex gap-2 align-items-center">
-                                <i class="bi bi-star-fill fs-6 text-main"></i>
-                                <i class="bi bi-star-fill fs-6 text-main"></i>
-                                <i class="bi bi-star-fill fs-6 text-main"></i>
-                                <i class="bi bi-star-fill fs-6 text-main"></i>
-                                <i class="bi bi-star-fill fs-6 text-main"></i>
+                                <i class="bi bi-star-fill fs-6 text-warning"></i>
+                                <i class="bi bi-star-fill fs-6 text-warning"></i>
+                                <i class="bi bi-star-fill fs-6 text-warning"></i>
+                                <i class="bi bi-star-fill fs-6 text-warning"></i>
+                                <i class="bi bi-star-fill fs-6 text-warning"></i>
                                 <small  className=''>(5.0)</small>
                                 </div>
                                 <div className="location-car px-1 py-3 bg-light-blue mt-2">

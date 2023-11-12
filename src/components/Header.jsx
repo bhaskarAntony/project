@@ -3,6 +3,7 @@ import '../styles/header.css'
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Dropdown } from 'bootstrap';
+import ApplyNow from '../Helpers/ApplyNow';
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -41,9 +42,9 @@ function Header() {
           <li className="nav-item">
         <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Employee Transportation</a></li>
           <hr />
-          <li className="nav-item"><a href="/" className="nav-link text-black nav-text">About Us</a></li>
+          <li className="nav-item"><a href="/about" className="nav-link text-black nav-text">About Us</a></li>
           <hr />
-          <li className="nav-item"><a href="/" className="nav-link text-black nav-text">Contact Us</a></li>
+          <li className="nav-item"><a href="/contact" className="nav-link text-black nav-text">Contact Us</a></li>
           <hr />
           <a href="/register" className='text-decoration-none mb-3'>
      <button class="w-100 main-btn w-100" type="button"><i class="bi bi-taxi-front"></i> Book a Car</button>
@@ -78,15 +79,13 @@ function Header() {
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="/">Airport taxi</a>
         </li>
-        <li className='nav-item'><a class="nav-link" href="/about">Why RSR Tours & Travels</a></li>
-        <li className='nav-item'><a class="nav-link" href="/contacts">Contact Us</a></li>
+        <li className='nav-item'><a class="nav-link" href="/about">About Us</a></li>
+        <li className='nav-item'><a class="nav-link" href="/contact">Contact Us</a></li>
         <li className="nav-item mx-3 mt-2">
        
         </li>
       </ul>
-      <a href="/register" className='text-decoration-none'>
-     <button class="w-100 main-btn" type="button"><i class="bi bi-taxi-front"></i> Book a Car</button>
-     </a>
+      <ApplyNow text={'Book Now'}/>
     </div>
   </div>
 </nav>

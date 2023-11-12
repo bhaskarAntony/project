@@ -15,15 +15,17 @@ function OnewayTrip() {
           <i class="bi bi-geo-alt-fill text-main"></i>
           </InputGroup.Text>
           <Form.Control
-            placeholder="Enter Location"
-            aria-label="Username"
+          type='text'
+          name='Pickup_location'
+            placeholder="Pickup Location"
+            aria-label="pickup location"
             aria-describedby="basic-addon1"
             className='p-3'
           />
         </InputGroup>
           </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-5">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-4">
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6">
             <div className="form-group">
@@ -34,8 +36,8 @@ function OnewayTrip() {
           </InputGroup.Text>
           <Form.Control
           type='date'
-          name='date'
-            aria-label="Username"
+          name='Pickup_date'
+            aria-label="pickup_date"
             aria-describedby="basic-addon1"
             className='p-3'
           />
@@ -51,8 +53,8 @@ function OnewayTrip() {
           </InputGroup.Text>
           <Form.Control
           type='Time'
-          name='time'
-            aria-label="Username"
+          name='Pickup_location'
+            aria-label="pickup_time"
             aria-describedby="basic-addon1"
             className='p-3'
           />
@@ -62,18 +64,21 @@ function OnewayTrip() {
           </div>
         </div>
       
-        <div className="col-12 col-sm-12 col-md-6 col-lg-2">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-3">
           <div className="form-group">
-          <Form.Label>Hours</Form.Label>
+          <Form.Label>Drop Location</Form.Label>
           <InputGroup className="mb-3">
           <InputGroup.Text id="basic-addon1">
-          <i class="bi bi-hourglass-top text-main"></i>
+          <i class="bi bi-stopwatch text-main"></i>
           </InputGroup.Text>
-          <Form.Select defaultValue="Select Hours" className='p-3'>
-          <option>Select</option>
-          <option>4 Hours- 40KM</option>
-          <option>8 Hours- 80KM</option>
-        </Form.Select>
+          <Form.Control
+          type='text'
+          placeholder='Drop Location'
+          name='Drop_location'
+            aria-label="drop_location"
+            aria-describedby="basic-addon1"
+            className='p-3'
+          />
         </InputGroup>
           </div>
         </div>

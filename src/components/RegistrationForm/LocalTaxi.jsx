@@ -15,8 +15,10 @@ function LocalTaxi() {
             <i class="bi bi-geo-alt-fill text-main"></i>
             </InputGroup.Text>
             <Form.Control
+            type='text'
+            name='pickup_location'
               placeholder="Enter Location"
-              aria-label="Username"
+              aria-label="pickup_loaction"
               aria-describedby="basic-addon1"
               className='p-3'
             />
@@ -34,8 +36,8 @@ function LocalTaxi() {
             </InputGroup.Text>
             <Form.Control
             type='date'
-            name='date'
-              aria-label="Username"
+            name='pickup_date'
+              aria-label="pickupDate"
               aria-describedby="basic-addon1"
               className='p-3'
             />
@@ -51,8 +53,8 @@ function LocalTaxi() {
             </InputGroup.Text>
             <Form.Control
             type='Time'
-            name='time'
-              aria-label="Username"
+            name='pickup_time'
+              aria-label="pickupTime"
               aria-describedby="basic-addon1"
               className='p-3'
             />

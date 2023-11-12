@@ -15,7 +15,7 @@ function AboutUs() {
                 BANGALORE</span></h1>
                 <p className='fs-5 mt-4 text-white py-4'>Car rental taxi service- <span className="text-main fw-bold">RSR Tours and Travels. </span>We Providing best Outstation Cab Services, Hourly car rental, Airport taxi, Employee Transportation and Luxury car Rental service in and around bangalore city.
                     <span className="text-main fw-bold">Contact us 24/7 to Facilitate Bookings or tours and travels or any queries and concerns. </span></p>
-                    <Link to='/' className='main-btn text-decoration-none'>Learn More</Link>
+                    <Link to='/about' className='main-btn text-decoration-none'>Learn More</Link>
             </div>
         </div>
       </div>

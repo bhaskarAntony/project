@@ -14,11 +14,12 @@ function RoundTrip() {
             <i class="bi bi-geo-alt-fill text-main"></i>
             </InputGroup.Text>
             <Form.Control
+            type='text'
+            name="Pickup_location"
               placeholder="Enter Pickup Location"
               aria-label="pickup-location"
               aria-describedby="basic-addon1"
               className='p-3'
-              name='pickupLocation'
             />
           </InputGroup>
          </div>
@@ -29,11 +30,12 @@ function RoundTrip() {
             <i class="bi bi-geo-alt-fill text-main"></i>
             </InputGroup.Text>
             <Form.Control
+            type='text'
               placeholder="Enter Drop Location"
               aria-label="drop-location"
               aria-describedby="basic-addon1"
               className='p-3'
-              name='dropLocation'
+              name='Drop_location'
             />
           </InputGroup>
          </div>
@@ -49,10 +51,10 @@ function RoundTrip() {
             </InputGroup.Text>
             <Form.Control
               placeholder="Enter Pickup date"
-              aria-label="Pickup date"
+              aria-label="EnterPickup date"
               aria-describedby="basic-addon1"
               className='p-3'
-            name='pickupDate'
+            name='Pickup_date'
             />
           </InputGroup>
          </div>
@@ -67,7 +69,7 @@ function RoundTrip() {
               aria-label="Drop-date"
               aria-describedby="basic-addon1"
               className='p-3'
-               name='dropDate'
+               name='Drop_date'
             />
           </InputGroup>
          </div>
@@ -82,11 +84,11 @@ function RoundTrip() {
             <i class="bi bi-geo-alt-fill text-main"></i>
             </InputGroup.Text>
             <Form.Control
-              placeholder="Enter pickup time"
+              placeholder="Enter Pickup time"
               aria-label="pickup-time"
               aria-describedby="basic-addon1"
               className='p-3'
-              name='pickupTime'
+              name='Pickup_time'
             />
           </InputGroup>
          </div>
@@ -101,7 +103,7 @@ function RoundTrip() {
               aria-label="Drop-time"
               aria-describedby="basic-addon1"
               className='p-3'
-              name='dropTime'
+              name='Drop_time'
             />
           </InputGroup>
          </div>
