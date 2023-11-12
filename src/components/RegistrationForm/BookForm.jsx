@@ -7,7 +7,7 @@ import Airport from './Airport';
 
 function BookForm() {
   return (
-    <div className='container bg-white book-card p-0 m-0 rounded-2 m-auto overflow-hidden'>
+    <div className='container bg-white book-card p-0 m-0 m-auto overflow-hidden'>
       <div className="w-100 border-0">
       <Tabs
       defaultActiveKey="profile"

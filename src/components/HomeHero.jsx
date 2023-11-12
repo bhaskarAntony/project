@@ -70,7 +70,7 @@ function HomeHero() {
   return (
     <div className='home-hero container-fluid p-3'>
       <div className="row align-items-center">
-        <div className="col-12 col-md-12 col-lg-8">
+        <div className="col-12 col-md-12 col-lg-7">
         <Carousel
           activeIndex={index}
           onSelect={handleSelect}
@@ -81,9 +81,9 @@ function HomeHero() {
           {home.map((item, index) => (
             <Carousel.Item key={index}>
                   <div className="hero-text p-lg-5 p-md-3 p-3">
-                    <h1 className="card-heading fs-4 text-white text-start">{item.tag}</h1>
-                    <h1 className="heading text-main text-900 text-start">{item.heading}</h1>
-                    <p className="text-white fs-5 my-4 text-start"><ReadMore text={item.subheading} maxLength={100}/></p>
+                    <h1 className=" fs-4 text-main text-start font-pt">{item.tag}</h1>
+                    <h1 className="heading text-black text-900 text-start font-pt">{item.heading}</h1>
+                    <p className="text-secondary fs-5 my-4 text-start font-pt"><ReadMore text={item.subheading} maxLength={100}/></p>
                     <div className="carousel-footer w-100 d-flex flex-wrap">
                       <button className='main-btn bg-white text-black  m-2 hero-btn py-3'>Explore All Cars<i class="bi bi-chevron-double-right"></i></button>
                       <button className='main-btn m-2 hero-btn py-3' onClick={openModal}>Check Avail Cars <i class="bi bi-chevron-double-right"></i></button>
@@ -94,13 +94,13 @@ function HomeHero() {
           ))}
         </Carousel>
         </div>
-        <div className="col-12 col-md-12 col-lg-6">
+        <div className="col-12 col-md-12 col-lg-5">
                 <div className="homeHero-image">
-
+                <BookForm/>
                 </div>
             </div>
       </div>
-      <BookForm/>
+      
     </div>
   )
 }

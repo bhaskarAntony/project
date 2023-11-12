@@ -7,7 +7,7 @@ function OnewayTrip() {
     <div>
     <form>
       <div className="row">
-        <div className="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div className="col-12">
           <div className="form-group">
           <Form.Label>Pickup Location</Form.Label>
           <InputGroup className="mb-3">
@@ -25,7 +25,7 @@ function OnewayTrip() {
         </InputGroup>
           </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div className="col-12">
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6">
             <div className="form-group">
@@ -64,7 +64,7 @@ function OnewayTrip() {
           </div>
         </div>
       
-        <div className="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div className="col-12">
           <div className="form-group">
           <Form.Label>Drop Location</Form.Label>
           <InputGroup className="mb-3">
@@ -82,9 +82,9 @@ function OnewayTrip() {
         </InputGroup>
           </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-4 col-lg-2">
+        <div className="col-12">
           <label htmlFor="btn" className="form-label">check now</label>
-         <button className="main-btn py-3 w-100">Book Now</button>
+         <button className="btn-blue py-3 w-100">Book Now</button>
          </div>
       </div>
     </form>

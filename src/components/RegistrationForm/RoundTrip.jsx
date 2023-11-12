@@ -6,7 +6,7 @@ function RoundTrip() {
   return (
     <div>
       <div className="row">
-        <div className="col-12 col-md-6 col-lg-4 p-1">
+        <div className="col-12">
          <div className="form-group">
          <Form.Label>Pickup Location</Form.Label>
             <InputGroup className="mb-3">
@@ -42,7 +42,7 @@ function RoundTrip() {
 
         </div>
 
-        <div className="col-12 col-md-6 col-lg-4 p-1">
+        <div className="col-12">
          <div className="form-group">
          <Form.Label>Pickup date</Form.Label>
             <InputGroup className="mb-3">
@@ -76,7 +76,7 @@ function RoundTrip() {
 
         </div>
 
-        <div className="col-12 col-md-6 col-lg-4 p-1">
+        <div className="col-12">
          <div className="form-group">
          <Form.Label>Pickup Time</Form.Label>
             <InputGroup className="mb-3">
@@ -109,8 +109,8 @@ function RoundTrip() {
          </div>
 
         </div>
-        <div className="col-12 col-md-6 col-lg-4">
-          <button className="main-btn w-100">Book Now</button>
+        <div className="col-12">
+          <button className="btn-blue py-3 w-100">Book Now</button>
         </div>
       </div>
     </div>
