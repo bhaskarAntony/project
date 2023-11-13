@@ -10,6 +10,7 @@ import ScrollProgressBar from './Helpers/ScrollProgressbar'
 import Progressbar from '../src/Helpers/Scrollbar/Progressbar'
 import ScrollToTopButton from './Helpers/BookButton/ScrollToTopButton'
 import PageLoader from './modals/PageLoader'
+import BottomNavigation from './components/bottom nav/BottomNavigation '
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ function App() {
       ) : (
         <>
         <Header/>
+        <BottomNavigation/>
         <ScrollProgressBar/>
          <Progressbar/>
         <BrowserRouter>
