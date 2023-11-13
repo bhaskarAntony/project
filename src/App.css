@@ -98,6 +98,9 @@
 .border-b{
   border-bottom: 4px solid var(--primary-green)
 }
+.dark-shadow{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 .primary-bg{
   background: var(--primary-green) !important;
 }
@@ -184,6 +187,23 @@ animation: img-anim 1s linear infinite alternate;
   border: none !important;
   font-weight: 900 !important;
  font-size: 1.2rem !important;
+}
+.book-card .form-control {
+  border: none !important;
+}
+.form-control:focus, .form-select:focus{
+  box-shadow: none !important;
+}
+.form-control{
+  border: 2px solid #dedddd !important;
+  border-radius: 20px !important;
+}
+.form-control:hover{
+  border: 2px solid var(--primary-color) !important;
+}
+.input-group:hover{
+  border: 2px solid var(--primary-color) !important;
+  cursor: pointer;
 }
 .form-control::placeholder{
   font-weight: 900 !important;

@@ -29,7 +29,7 @@ function CarBook() {
             <option value="local">Others</option>
           </select>
         </div>
-        <button className="main-btn w-100 py-3 mt-3">Check Available</button>
+        <button className="main-btn w-100 py-3 mt-3 rounded-5">Check Available</button>
 
       </form>
     </div>

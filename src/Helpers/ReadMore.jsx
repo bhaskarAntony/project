@@ -14,15 +14,15 @@ function ReadMore({ text, maxLength }) {
             {text.slice(0, maxLength)}
             {text.length > maxLength && (
               <p onClick={toggleTruncate} className="read-more-button text-main text-900">
-                Read More
+                ..Read More
               </p>
             )}
           </div>
         ) : (
           <div>
             {text}
-            <p onClick={toggleTruncate} className="read-less-button text-main-danger">
-              Read Less
+            <p onClick={toggleTruncate} className="read-less-button text-main text-900">
+              ..Read Less
             </p>
           </div>
         )}
