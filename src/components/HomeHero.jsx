@@ -85,7 +85,7 @@ function HomeHero() {
                     <h1 className="heading text-black text-900 text-start font-pt">{item.heading}</h1>
                     <p className="text-secondary fs-5 my-4 text-start font-pt"><ReadMore text={item.subheading} maxLength={100}/></p>
                     <div className="carousel-footer w-100 d-flex flex-wrap">
-                      <button className='main-btn bg-white text-black  m-2 hero-btn py-3'>Explore All Cars<i class="bi bi-chevron-double-right"></i></button>
+                      <button className='main-btn bg-dark text-white  m-2 hero-btn py-3'>Explore All Cars<i class="bi bi-chevron-double-right"></i></button>
                       <button className='main-btn m-2 hero-btn py-3' onClick={openModal}>Check Avail Cars <i class="bi bi-chevron-double-right"></i></button>
                     </div>
                    

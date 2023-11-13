@@ -96,7 +96,7 @@ function LocalTaxi() {
     <div>
       <form>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <div className="form-group">
             <Form.Label>Pickup Location</Form.Label>
             <InputGroup className="mb-3">
@@ -115,7 +115,7 @@ function LocalTaxi() {
           </InputGroup>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <div className="form-group">
             <Form.Label>Hours</Form.Label>
             <InputGroup className="mb-3">
@@ -132,7 +132,7 @@ function LocalTaxi() {
           </div>
           <div className="col-12">
             <div className="row">
-              <div className="col-6">
+              <div className="col-12">
               <div className="form-group">
             <Form.Label>Pickup Date</Form.Label>
             <InputGroup className="mb-3">
@@ -150,7 +150,7 @@ function LocalTaxi() {
           </InputGroup>
             </div>
               </div>
-              <div className="col-6">
+              <div className="col-12">
               <div className="form-group">
             <Form.Label>Pickup Time</Form.Label>
             <InputGroup className="mb-3">
