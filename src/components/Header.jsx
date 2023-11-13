@@ -13,7 +13,7 @@ function Header() {
   const handleShow = () => setShow(true);
   return (
     <header>
-      <div className="nav-top bg-green text-black fw-bold ">
+      <div className="nav-top bg-green text-black fw-bold d-none d-lg-block">
         <p className="p-dark-small m-0">Outstanding cabs, Airport taxi, Hourly Car rental, Luxury cars rental<b>in Bangalore <i class="bi bi-arrow-right"></i></b></p>
       </div>
       <nav class="navbar navbar-expand-lg">
@@ -77,6 +77,9 @@ function Header() {
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="/">Airport taxi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/">Tempo Rent</a>
         </li>
         <li className='nav-item'><a class="nav-link" href="/about">About Us</a></li>
         <li className='nav-item'><a class="nav-link" href="/contact">Contact Us</a></li>
