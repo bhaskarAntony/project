@@ -1,6 +1,7 @@
 import React from 'react'
-import '../styles/cars.css'
+import '../../styles/cars.css'
 import { Link } from 'react-router-dom'
+
 
 const carsData = [
     {
@@ -93,6 +94,9 @@ function Cars() {
                                     <div className="col-6">
                                <Link to='/' className='text-decoration-none'><button className="main-btn py-3 fs-6 rounded-5">Know More</button></Link>
                                 </div>
+                                
+                               
+                              
                                </div>
                             </div>
                         </div>
@@ -101,12 +105,7 @@ function Cars() {
             }
         </div>
     </section>
-    <div className="text-center">
-        <Link to='/all-cars-Rentals' className='text-decoration-none'>  <button className="main-btn">View All Cars</button></Link>
-      
     </div>
-    </div>
-   
   )
 }
 

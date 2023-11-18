@@ -11,6 +11,7 @@ import Progressbar from '../src/Helpers/Scrollbar/Progressbar'
 import ScrollToTopButton from './Helpers/BookButton/ScrollToTopButton'
 import PageLoader from './modals/PageLoader'
 import BottomNavigation from './components/bottom nav/BottomNavigation '
+import Cars from './pages/All cars/Cars'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/all-cars-Rentals' element={<Cars/>}/>
         </Routes>
         {/* <ScrollToTopButton/> */}
         <Footer/>

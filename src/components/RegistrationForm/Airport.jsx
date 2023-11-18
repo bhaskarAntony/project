@@ -86,7 +86,7 @@ function Airport() {
     <div>
       <form>
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 col-md-6">
             <div className="form-group">
               <Form.Label>Pickup Location</Form.Label>
               <InputGroup className="mb-3">
@@ -105,6 +105,24 @@ function Airport() {
               </InputGroup>
             </div>
           </div>
+          <div className="col-12 col-md-6">
+                <div className="form-group">
+                  <Form.Label>Pickup Time</Form.Label>
+                  <InputGroup className="mb-3">
+                    <InputGroup.Text id="basic-addon1">
+                      <i className="bi bi-stopwatch text-main"></i>
+                    </InputGroup.Text>
+                    <Form.Control
+                      type="Time"
+                      name="Pickup_time"
+                      aria-label="pickupTimeo"
+                      aria-describedby="basic-addon1"
+                      className="p-3"
+                      onChange={handleChange}
+                    />
+                  </InputGroup>
+                </div>
+              </div>
           <div className="col-12">
             <div className="row">
               <div className="col-12">
@@ -125,24 +143,7 @@ function Airport() {
                   </InputGroup>
                 </div>
               </div>
-              <div className="col-12">
-                <div className="form-group">
-                  <Form.Label>Pickup Time</Form.Label>
-                  <InputGroup className="mb-3">
-                    <InputGroup.Text id="basic-addon1">
-                      <i className="bi bi-stopwatch text-main"></i>
-                    </InputGroup.Text>
-                    <Form.Control
-                      type="Time"
-                      name="Pickup_time"
-                      aria-label="pickupTimeo"
-                      aria-describedby="basic-addon1"
-                      className="p-3"
-                      onChange={handleChange}
-                    />
-                  </InputGroup>
-                </div>
-              </div>
+             
             </div>
           </div>
           <div className="col-12">

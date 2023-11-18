@@ -5,6 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Dropdown } from 'bootstrap';
 import ApplyNow from '../Helpers/ApplyNow';
 import { Link } from 'react-router-dom';
+import brand from '../images/brand.png'
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -14,11 +15,11 @@ function Header() {
   return (
     <header>
       <div className="nav-top bg-green text-black fw-bold d-none d-lg-block">
-        <p className="p-dark-small m-0">Outstanding cabs, Airport taxi, Hourly Car rental, Luxury cars rental<b>in Bangalore <i class="bi bi-arrow-right"></i></b></p>
+        <p className="p-dark-small m-0">Experience hassle-free outstation car rentals, airport taxis, and local taxis with convenient booking options.<b><i class="bi bi-arrow-right"></i></b></p>
       </div>
       <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-  <a class="navbar-brand" href="/"> <img src="https://cdn-icons-png.flaticon.com/128/727/727173.png" alt="" /></a>
+  <a class="navbar-brand" href="/"> <img src={brand} alt="" /></a>
     <Button variant="black" onClick={handleShow} className='bg-black d-lg-none'>
     <i class="bi bi-list text-white fs-1"></i>
       </Button>
@@ -57,7 +58,7 @@ function Header() {
       </Offcanvas>
 
     <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-group  d-flex justify-content-center w-100">
+      <ul class="navbar-nav me-auto justify-content-between mb-2 mb-lg-0 list-group  d-flex justify-content-center w-100">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
@@ -73,13 +74,10 @@ function Header() {
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">Taxi for Local</a>
+          <a class="nav-link" aria-current="page" href="/">Employee Transportation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">Airport taxi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">Tempo Rent</a>
+          <a class="nav-link" aria-current="page" href="/">Taxi</a>
         </li>
         <li className='nav-item'><a class="nav-link" href="/about">About Us</a></li>
         <li className='nav-item'><a class="nav-link" href="/contact">Contact Us</a></li>

@@ -22,7 +22,7 @@ const choosedata = [
 ]
 function Choose() {
   return (
-    <section className='choose bg-black container-fluid py-5 bg-texture'>
+    <section className='choose dark-bg container-fluid py-5 bg-texture'>
         <div className="text-center">
             <h1 className="fs-1 text-900 text-white">Why You Choose Us?</h1>
             <p className="text-white fs-5">

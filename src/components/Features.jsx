@@ -17,7 +17,7 @@ function Features() {
         <div className="col-12 col-md-6 col-lg-3">
             <div className="feature-card">
             <div className="text-center">
-            <i class="bi bi-1-circle-fill"></i>
+            <i class="bi bi-1-circle-fill text-dark"></i>
             </div>
             <p className='card-heading serif text-900'><b>First class services</b></p>
             <p className='fs-5'>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.</p>
@@ -35,7 +35,7 @@ function Features() {
         <div className="col-12 col-md-6 col-lg-3">
             <div className="feature-card">
             <div className="text-center">
-            <i class="bi bi-check2-circle"></i>
+            <i class="bi bi-check2-circle text-dark"></i>
             </div>
             <p className='card-heading'><b>24/7 road assistance</b></p>
             <p className='fs-5'>Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>

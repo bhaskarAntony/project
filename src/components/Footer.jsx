@@ -4,10 +4,9 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <section className='footer p-3 py-5 text-white'>
+    <section className='footer p-3 py-5 text-white dark-bg'>
       <div className="text-center">
-        <img src="https://www.wordpress.codeinsolution.com/carveo/wp-content/uploads/sites/32/2023/09/Logo-Light@2x-e1694590782371.png" alt="" />
-        <h1 className="fs-3">The best car rentals in Bangalore</h1>
+        <h1 className="fs-2 text-900">The best car rentals in <span className="text-main">Karnataka</span></h1>
         <p className="fs-6 text-white container"><span className="text-main">RSR TOURS AND TRAVELS</span> is a bangalore-based car rental company associated since 2023, we are a full service travel management company. A team of fine entrepreneurs move the company with their dedication, passion, vision and hard work which has resulted in transforming the organization’s operation with a healthy turnover size.</p>
       </div>
     <div className="px-5">
@@ -15,7 +14,7 @@ function Footer() {
     </div>
     <div className="row">
         <div className="col-6 col-sm-6 col-md-6 col-lg-3">
-            <h1 className="fs-4 mb-4 text-main">SERVICES</h1>
+            <h1 className="fs-4 mb-4 text-main text-900">SERVICES</h1>
             <ul className='m-0 p-0'>
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>Taxi For Local</Link></li>
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>OutStation Rental</Link></li>
@@ -24,8 +23,18 @@ function Footer() {
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>Destination Trips</Link></li>
             </ul>
         </div>
+        <div className="col-12 col-sm-12 col-md-6 col-lg-3">
+        <h1 className="fs-4 mb-4 text-main text-900">MAIN SERVICES</h1>
+        <ul className='m-0 p-0'>
+                <li className='mb-3'><Link to='/' className='nav-link fs-6'>Employee Transportation</Link></li>
+                <li className='mb-3'><Link to='/' className='nav-link fs-6'>Bus Ticket Bookings</Link></li>
+                <li className='mb-3'><Link to='/' className='nav-link fs-6'>Flight Ticket Bookings</Link></li>
+                <li className='mb-3'><Link to='/' className='nav-link fs-6'>All Types Of Packages Tours Available.</Link></li>
+            </ul>
+
+        </div>
         <div className="col-6 col-sm-6 col-md-6 col-lg-3">
-            <h1 className="fs-4 mb-4 text-main">QUICK LINKS</h1>
+            <h1 className="fs-4 mb-4 text-main text-900">QUICK LINKS</h1>
             <ul className='m-0 p-0'>
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>About Us</Link></li>
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>Contact Us</Link></li>
@@ -34,15 +43,11 @@ function Footer() {
             </ul>
         </div>
         <div className="col-12 col-sm-6 col-md-6 col-lg-3">
-            <h1 className="fs-4 mb-4 text-main">QUICK CONTACT</h1>
+            <h1 className="fs-4 mb-4 text-main text-900">QUICK CONTACT</h1>
             <ul className='m-0 p-0'>
                 <li className='mb-3 fs-6 d-flex gap-2'>
                 <i class="bi bi-geo-alt-fill text-main"></i>
-               <span> Callison Laney Buoy Building W 13th Parks Suite 559, Denver</span>
-                </li>
-                <li className='mb-3 fs-6 d-flex gap-2'>
-                <i class="bi bi-building text-main"></i>
-               <span>Office 478 Vienna, AU 92101</span>
+               <span>No.21/1, 1st Main, 1st Cross, RMS Colony, Bhattarahalli, Bangalore-560049</span>
                 </li>
                 <li className='mb-3 fs-6 d-flex gap-2'>
                 <i class="bi bi-telephone-fill text-main"></i>
@@ -50,14 +55,11 @@ function Footer() {
                 </li>
                 <li className='mb-3 fs-6 d-flex gap-2'>
                 <i class="bi bi-envelope-fill text-main"></i>
-               <span>carveo@support.com</span>
+               <span>rsrtoursandtravelsblr@gmail.com</span>
                 </li>
                
             </ul>
-        </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-3">
-        <h1 className="fs-4 mb-4 text-main">FALLOW US ON</h1>
-            <div className="social-icons d-flex gap-2 justify-content-around p-3">
+            <div className="social-icons d-flex gap-2 justify-content-around">
                <Link to='/'>
                <div className="social-icon primary-bg text-white">
                 <i class="bi bi-facebook"></i>
@@ -80,6 +82,7 @@ function Footer() {
                </Link>   
             </div>
         </div>
+     
     </div>
 
     </section>

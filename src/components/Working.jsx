@@ -12,7 +12,7 @@ function Working() {
                     <div className="working-icon primary-bg">
                     <i class="bi bi-taxi-front"></i>
                     </div>
-                    <div className="working-count"><span className="fs-4">3</span></div>
+                    <div className="working-count"><span className="fs-4">1</span></div>
                     <div className="working-header"></div>
                    <div className="working-body">
                    <p className="fs-3 text-900 mt-2">SELECT DATE</p>
@@ -25,7 +25,7 @@ function Working() {
                     <div className="working-icon bg-gray1">
                     <i class="bi bi-file-text"></i>
                     </div>
-                    <div className="working-count"><span className="fs-4">3</span></div>
+                    <div className="working-count primary-bg"><span className="fs-4">2</span></div>
                     <div className="working-header"></div>
                    <div className="working-body">
                    <p className="fs-3 text-900 mt-2">BOOK A CAR</p>
@@ -51,7 +51,7 @@ function Working() {
                     <div className="working-icon bg-gray1">
                     <i class="bi bi-emoji-smile"></i>
                     </div>
-                    <div className="working-count"><span className="fs-4">3</span></div>
+                    <div className="working-count primary-bg"><span className="fs-4">4</span></div>
                     <div className="working-header"></div>
                    <div className="working-body">
                    <p className="fs-3 text-900 mt-2">ENJOY THE CAR</p>

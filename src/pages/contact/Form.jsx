@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import { Link } from 'react-router-dom'
 
 function Form() {
   return (
@@ -42,8 +43,8 @@ function Form() {
                 <i class="bi bi-envelope-fill"></i>
                 </div>
                 <div className="">
-                    <p className="fs-4">OUR EMAIL</p>
-                    <span className="fs-6">Example@gmail.com</span>
+                    <p className="fs-4 text-900">OUR EMAIL</p>
+                    <span className="fs-6 text-main">rsrtoursandtravelsbir@gmail.com</span>
                 </div>
                 </div>
                 <div className="d-flex gap-3 align-items-center mb-4">
@@ -51,8 +52,8 @@ function Form() {
                 <i class="bi bi-geo-alt-fill"></i>
                 </div>
                 <div className="">
-                    <p className="fs-4">OUR LOCATION</p>
-                    <span className="fs-6">Chikkaballaour</span>
+                    <p className="fs-4 text-900">OUR LOCATION</p>
+                    <span className="fs-6 text-main">No.21/1, 1st Main, 1st Cross, RMS Colony, Bhattarahalli, Bangalore-560049</span>
                 </div>
                 </div>
                 <div className="d-flex gap-3 align-items-center mb-4">
@@ -60,8 +61,8 @@ function Form() {
                 <i class="bi bi-telephone-fill"></i>
                 </div>
                 <div className="">
-                    <p className="fs-4">OUR PHONE</p>
-                    <span className="fs-6">+919606729320</span>
+                    <p className="fs-4 text-900">OUR PHONE</p>
+                    <Link to='tel:+919900197160' className="fs-6 text-main">+919900197160</Link>
                 </div>
                 </div>
             </div>

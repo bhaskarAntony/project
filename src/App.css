@@ -16,7 +16,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --faq-dark: #0f1114;
+    --faq-dark: #1d1d1d;
     --primary: #007bff;
     --secondary: #6c757d;
     --success: #28a745;
@@ -103,6 +103,9 @@
 }
 .primary-bg{
   background: var(--primary-green) !important;
+}
+.dark-bg{
+  background-color: var( --faq-dark);
 }
 .secondary-bg{
   background-color: var(--secondary-color) !important;
@@ -191,6 +194,9 @@ animation: img-anim 1s linear infinite alternate;
 .book-card .form-control {
   border: none !important;
 }
+.book-card .form-control:hover {
+  border: none !important;
+}
 .form-control:focus, .form-select:focus{
   box-shadow: none !important;
 }
@@ -211,6 +217,9 @@ animation: img-anim 1s linear infinite alternate;
 .input-group{
   border: 2px solid #dedddd !important;
   border-radius: 20px;
+}
+.discover-body{
+  min-height: 160px;
 }
 @keyframes img-anim{
   from{

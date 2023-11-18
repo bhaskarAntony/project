@@ -10,6 +10,8 @@ import Working from '../components/Working'
 import FaqSection from '../components/FaqSection'
 import HomeHero from '../components/HomeHero'
 import ContactNumber from '../components/ContactNumber'
+import Transportation from '../components/Transportation'
+import Discover from '../components/Discover'
 
 function Home() {
   return (
@@ -19,9 +21,12 @@ function Home() {
       <Features/>
       <ContactNumber/>
       <RSR_Services/>
+      <Transportation/>
+      <Discover/>
       <Choose/>
       <Cars/>
       {/* <OneDayTrips/> */}
+  
       <AboutUs/>
       <FaqSection/>
     </div>
