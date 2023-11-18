@@ -12,6 +12,9 @@ import ScrollToTopButton from './Helpers/BookButton/ScrollToTopButton'
 import PageLoader from './modals/PageLoader'
 import BottomNavigation from './components/bottom nav/BottomNavigation '
 import Cars from './pages/All cars/Cars'
+import Hero from './pages/employee transportation/Hero'
+import EmployeeTransportation from './pages/employee transportation/EmployeeTransportation'
+import LocalTaxi from './pages/Local taxi/LocalTaxi'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +41,8 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/all-cars-Rentals' element={<Cars/>}/>
+          <Route path='/local_taxi' element={<LocalTaxi/>}/>
+          <Route path='/employee_transportation' element={<EmployeeTransportation/>}/>
         </Routes>
         {/* <ScrollToTopButton/> */}
         <Footer/>

@@ -94,7 +94,7 @@ function LocalTaxi() {
   };
   return (
     <div>
-      <form>
+      <form className='book'>
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">

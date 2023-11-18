@@ -1,0 +1,9 @@
+.employee-hero{
+    min-height: 100vh;
+    background:linear-gradient(45deg,#000000, #00ffa638 ), url(https://img.freepik.com/free-photo/security-woman-opening-car-clientt_23-2148404103.jpg?w=740&t=st=1700302458~exp=1700303058~hmac=f89fbeba2347c1e2be65055ef1e18a74e68e0e9e55e74a56cf64e44708de630e) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.efficient-card{
+    min-height: 450px;
+}

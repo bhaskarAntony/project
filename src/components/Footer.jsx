@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <section className='footer p-3 py-5 text-white dark-bg'>
+    <section className='footer p-3 py-5 text-white bg-dark'>
       <div className="text-center">
         <h1 className="fs-2 text-900">The best car rentals in <span className="text-main">Karnataka</span></h1>
         <p className="fs-6 text-white container"><span className="text-main">RSR TOURS AND TRAVELS</span> is a bangalore-based car rental company associated since 2023, we are a full service travel management company. A team of fine entrepreneurs move the company with their dedication, passion, vision and hard work which has resulted in transforming the organization’s operation with a healthy turnover size.</p>

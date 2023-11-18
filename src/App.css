@@ -124,7 +124,7 @@
   padding: 10px;
   font-size: 1.2rem;
   color: #fff;
-  border-radius: 5px;
+  border-radius:2px;
   background-color: var(--secondary-green);
   min-width: 150px;
   font-weight: 500;
@@ -142,16 +142,20 @@
 .gray-btn{
   background-color: var(--gray2) !important;
 }
-.btn-outline{
+.btn-outline, .btn-outline-light{
   border: none;
   border: 2px solid #1a1919;
   padding: 10px;
   font-size: 1.2rem;
   color: #1a1919;
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: transparent;
   min-width: 150px;
   font-weight: 500;
+}
+.btn-outline-light{
+  border: 2px solid #fff;
+  color: #fff;
 }
 .heading{
   font-size: 3.9rem;
@@ -197,6 +201,13 @@ animation: img-anim 1s linear infinite alternate;
 .book-card .form-control:hover {
   border: none !important;
 }
+
+.book .form-control {
+  border: none !important;
+}
+.book .form-control:hover {
+  border: none !important;
+}
 .form-control:focus, .form-select:focus{
   box-shadow: none !important;
 }
@@ -213,6 +224,9 @@ animation: img-anim 1s linear infinite alternate;
 }
 .form-control::placeholder{
   font-weight: 900 !important;
+}
+.hero .form-control{
+  border: none !important;
 }
 .input-group{
   border: 2px solid #dedddd !important;

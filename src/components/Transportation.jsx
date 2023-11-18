@@ -2,7 +2,7 @@ import React from 'react'
 
 function Transportation() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid bg-light'>
       <div className="row">
         <div className="col-12 col-sm-12 col-md-6 d-flex flex-column justify-content-center p-lg-5 p-3 mb-3">
            <div className="text">

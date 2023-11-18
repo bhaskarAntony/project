@@ -67,17 +67,17 @@ function Header() {
             Services <i class="bi bi-chevron-down mx-1"></i>
           </a>
           <ul class="dropdown-menu">
-            <li className='list-group-item'><a class="dropdown-item" href="/course-data-science">Taxi For Local</a></li>
+            <li className='list-group-item'><a class="dropdown-item" href="/local_taxi">Taxi For Local</a></li>
             <li className='list-group-item'><a class="dropdown-item" href="/course-cloud-computing">cabs for Outstation</a></li>     
             <li className='list-group-item'><a class="dropdown-item" href="/course-digital-marketing">Airport taxi</a></li>   
             <li className='list-group-item'><a class="dropdown-item" href="#">Luxury Car Rental</a></li>   
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">Employee Transportation</a>
+          <a class="nav-link" aria-current="page" href="/employee_transportation">Employee Transportation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">Taxi</a>
+          <a class="nav-link" aria-current="page" href="/">Our Vehicles</a>
         </li>
         <li className='nav-item'><a class="nav-link" href="/about">About Us</a></li>
         <li className='nav-item'><a class="nav-link" href="/contact">Contact Us</a></li>
