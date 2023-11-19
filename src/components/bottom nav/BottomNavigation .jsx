@@ -2,13 +2,13 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faSearch, faPlus, faHeart, faUser, faPlaneDeparture, faVanShuttle, faCarSide, faBuilding } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faSearch, faPlus, faHeart, faUser, faPlaneDeparture, faVanShuttle, faCarSide, faBuilding, faContactCard } from '@fortawesome/free-solid-svg-icons';
 
 // Functional component for the bottom navigation bar
 const BottomNavigation = () => {
   return (
-    <Navbar fixed="bottom" bg="light" variant="light" className='d-lg-none text-center p-0 m-0 overflow-scroll dark-shadow'>
-      <Nav className="mx-auto p-0 justify-content-between">
+    <Navbar fixed="bottom" bg="light" variant="light" className='d-lg-none text-center p-0 m-0 overflow-auto dark-shadow'>
+      <Nav className="w-100  p-0 d-flex justify-content-between">
         <Nav.Item>
           <Nav.Link href="/">
             <FontAwesomeIcon icon={faHome} className='text-main' />
@@ -16,29 +16,30 @@ const BottomNavigation = () => {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#search">
+          <Nav.Link href="/outstation">
             <FontAwesomeIcon icon={faCarSide} className='text-main'/>
-            <small className="d-block fs-6">Cars</small>
+            <small className="d-block fs-6">Outstation</small>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#add">
+          <Nav.Link href="/employee_transportation">
             <FontAwesomeIcon icon={faBuilding} className='text-main' />
-            <small className="d-block fs-6">Services</small>
+            <small className="d-block fs-6">Corporate</small>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#favorites">
+          <Nav.Link href="/taxi/airport">
             <FontAwesomeIcon icon={faPlaneDeparture} className='text-main'/>
             <small className="d-block fs-6">Airport Taxi</small>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#profile">
-            <FontAwesomeIcon icon={faVanShuttle} className='text-main'/>
-            <small className="d-block fs-6">Tempos</small>
+          <Nav.Link href="/contact">
+            <FontAwesomeIcon icon={faContactCard} className='text-main'/>
+            <small className="d-block fs-6">Contact</small>
           </Nav.Link>
         </Nav.Item>
+        
       </Nav>
     </Navbar>
   );

@@ -15,6 +15,9 @@ import Cars from './pages/All cars/Cars'
 import Hero from './pages/employee transportation/Hero'
 import EmployeeTransportation from './pages/employee transportation/EmployeeTransportation'
 import LocalTaxi from './pages/Local taxi/LocalTaxi'
+import OutStation from './pages/Outstation/Outstation'
+import AirportTaxi from './pages/Airport taxi/AirportTaxi'
+import LuxuryCar from './pages/Luxury Rental/LuxuryCar'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,7 +28,7 @@ function App() {
     }, 2000);
   }, []); 
   return (
-    <div>
+    <div className='overflow-hidden'>
        {
        loading ? (
         <PageLoader />
@@ -42,6 +45,9 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/all-cars-Rentals' element={<Cars/>}/>
           <Route path='/local_taxi' element={<LocalTaxi/>}/>
+          <Route path='/outstation' element={<OutStation/>}/>
+          <Route path='/car/luxury' element={<LuxuryCar/>}/>
+          <Route path='/taxi/airport' element={<AirportTaxi/>}/>
           <Route path='/employee_transportation' element={<EmployeeTransportation/>}/>
         </Routes>
         {/* <ScrollToTopButton/> */}

@@ -2,10 +2,11 @@ import React from 'react'
 import './styles/hero.css'
 import BookForm from './BookForm'
 import LocalTaxi from '../../components/RegistrationForm/LocalTaxi'
+import OutStation from '../../components/RegistrationForm/OutStation'
 
 function Hero() {
   return (
-    <section className='Local-hero container-fluid p-lg-5 p-3'>
+    <section className='outstation-hero container-fluid p-lg-5 p-3'>
       <div className="row">
         <div className="col-12 col-sm-12 col-md-7">
             <div className="employee-hero-text">
@@ -23,7 +24,7 @@ function Hero() {
         </div>
         <div className="col-12 col-sm-12 col-md-5">
            <div className="bg-white p-4 py-4">
-           <LocalTaxi/>
+           <OutStation/>
            </div>
         </div>
       </div>

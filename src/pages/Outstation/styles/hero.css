@@ -1,0 +1,9 @@
+.outstation-hero{
+    min-height: 100vh;
+    background:linear-gradient(45deg,#000000, #00ffa638 ), url(https://img.freepik.com/free-photo/young-beautiful-woman-choosing-car-car-showroom_1303-22812.jpg?size=626&ext=jpg&ga=GA1.1.1215326194.1700409923&semt=ais) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.efficient-card{
+    min-height: 450px;
+}

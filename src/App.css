@@ -195,17 +195,11 @@ animation: img-anim 1s linear infinite alternate;
   font-weight: 900 !important;
  font-size: 1.2rem !important;
 }
-.book-card .form-control {
-  border: none !important;
-}
-.book-card .form-control:hover {
-  border: none !important;
-}
 
-.book .form-control {
+[class*="-hero"] .form-control {
   border: none !important;
 }
-.book .form-control:hover {
+[class*="-hero"] .form-control:hover {
   border: none !important;
 }
 .form-control:focus, .form-select:focus{
