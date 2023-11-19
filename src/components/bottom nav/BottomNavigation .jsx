@@ -33,13 +33,6 @@ const BottomNavigation = () => {
             <small className="d-block fs-6">Airport Taxi</small>
           </Nav.Link>
         </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="/contact">
-            <FontAwesomeIcon icon={faContactCard} className='text-main'/>
-            <small className="d-block fs-6">Contact</small>
-          </Nav.Link>
-        </Nav.Item>
-        
       </Nav>
     </Navbar>
   );
