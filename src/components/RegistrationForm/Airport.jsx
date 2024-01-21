@@ -99,7 +99,7 @@ function Airport() {
                   placeholder="Enter Location"
                   aria-label="pickup_location"
                   aria-describedby="basic-addon1"
-                  className="p-3"
+                  className="p-2"
                   onChange={handleChange}
                 />
               </InputGroup>
@@ -117,7 +117,7 @@ function Airport() {
                       name="Pickup_time"
                       aria-label="pickupTimeo"
                       aria-describedby="basic-addon1"
-                      className="p-3"
+                      className="p-2"
                       onChange={handleChange}
                     />
                   </InputGroup>
@@ -137,7 +137,7 @@ function Airport() {
                       name="Pickup_date"
                       aria-label="pickupDate"
                       aria-describedby="basic-addon1"
-                      className="p-3"
+                      className="p-2"
                       onChange={handleChange}
                     />
                   </InputGroup>
@@ -159,7 +159,7 @@ function Airport() {
                   placeholder="Drop Location"
                   aria-label="dropLocation"
                   aria-describedby="basic-addon1"
-                  className="p-3"
+                  className="p-2"
                   onChange={handleChange}
                 />
               </InputGroup>

@@ -13,8 +13,8 @@ function Hero() {
 Elevating Corporate Travel with Sophistication and Efficiency
                 </h1>
                 <p className="mt-3 fs-5 text-white">
-    Indulge in Opulent Travel Experiences with <span className="text-bold text-main">RSR Luxury Car Rental Services</span>. Our impeccable services guarantee a lavish and punctual journey, ensuring a sophisticated travel experience every time.
-</p>
+              Indulge in Opulent Travel Experiences with <span className="text-bold text-main">RSR Luxury Car Rental Services</span>. Our impeccable services guarantee a lavish and punctual journey, ensuring a sophisticated travel experience every time.
+          </p>
 
 
                 <div className="btns d-flex gap-4 mt-4 mb-3">

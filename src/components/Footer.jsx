@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
+
     <section className='footer p-3 py-5 text-white bg-dark'>
       <div className="text-center">
-        <h1 className="fs-2 text-900">The best car rentals in <span className="text-main">Karnataka</span></h1>
+        <h1 className="fs-2 text-900">The best car rentals in <span className="text-main">Karnataka</span></h1>   
         <p className="fs-6 text-white container"><span className="text-main">RSR TOURS AND TRAVELS</span> is a bangalore-based car rental company associated since 2023, we are a full service travel management company. A team of fine entrepreneurs move the company with their dedication, passion, vision and hard work which has resulted in transforming the organization’s operation with a healthy turnover size.</p>
       </div>
     <div className="px-5">
-    <hr />
+    <hr/>
     </div>
     <div className="row">
         <div className="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -31,7 +32,6 @@ function Footer() {
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>Flight Ticket Bookings</Link></li>
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>All Types Of Packages Tours Available.</Link></li>
             </ul>
-
         </div>
         <div className="col-6 col-sm-6 col-md-6 col-lg-3">
             <h1 className="fs-4 mb-4 text-main text-900">QUICK LINKS</h1>
@@ -39,7 +39,6 @@ function Footer() {
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>About Us</Link></li>
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>Contact Us</Link></li>
                 <li className='mb-3'><Link to='/' className='nav-link fs-6'>Privacy Policy</Link></li>
-               
             </ul>
         </div>
         <div className="col-12 col-sm-6 col-md-6 col-lg-3">
@@ -57,10 +56,9 @@ function Footer() {
                 <i class="bi bi-envelope-fill text-main"></i>
                <span>rsrtoursandtravelsblr@gmail.com</span>
                 </li>
-               
             </ul>
             <div className="social-icons d-flex gap-2 justify-content-around">
-               <Link to='/'>
+               <Link to='https://www.facebook.com/profile.php?id=100090124316314'>
                <div className="social-icon primary-bg text-white">
                 <i class="bi bi-facebook"></i>
                 </div>
@@ -82,7 +80,6 @@ function Footer() {
                </Link>   
             </div>
         </div>
-     
     </div>
 
     </section>
