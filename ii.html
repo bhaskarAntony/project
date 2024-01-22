@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            gap: 30px;
+            flex-flow: wrap;
+            padding: 30px;
+            justify-content: center;
+            background-color: #000000;
+            min-height: 100vh;
+            position: relative;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container .card{
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+
+        }
+        .container .card img{
+            width: 100%;
+            height: 200px;
+            /* filter: brightness(10%); */
+            filter: blur(10px);
+
+        }
+        .container img:hover{
+            transform: scale(1.5);
+            transition: 0.7s;
+            /* filter: brightness(100%); */
+            /* filter: contrast(10%); */
+            /* filter: invert(50%); */
+            /* filter: hue-rotate(80deg); */
+            /* filter: saturate(10%); */
+            filter: blur(0px);
+        }
+        .blur1{
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(#fb5788, #bd53ff);
+            position: absolute;
+            left: 0;
+            top: 0;
+            filter: blur(130px);
+        }
+        .blur2{
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(#fb5788, #bd53ff);
+            position: absolute;
+            right: 0;
+            top: 0;
+            filter: blur(130px);
+        }
+        h1{
+            font-size: 4rem;
+            color: #fff;
+
+            }
+            button{
+                border: none;
+                padding: 15px;
+                margin-top: 30px;
+                min-width: 200px;
+                font-size: 1.2rem;
+                background: linear-gradient(45deg, #fb5788, #bd53ff);
+                color: #fff;
+                border-radius: 100px;
+            }
+            .text{
+                text-align: center;
+            }
+            .btns{
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+            }
+            button:last-child{
+                background: transparent;
+                border: 2px solid #fb5788;
+            }
+            button:hover:last-child{
+                background: linear-gradient(45deg, #fb5788, #bd53ff);
+            }
+            button:hover:first-child{
+                background: transparent;
+                border: 2px solid #fb5788;
+            }
+            p{
+                color: #fff;
+                font-size: 1.2rem;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="blur1"></div>
+       <div class="blur2"></div>
+      <div class="text">
+        <h1>WELCOME TO CODESPACE🚀</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Laudantium eveniet et consequuntur veniam? Illum, delectus. <br> Laudantium alias quam harum reprehenderit,  <br>vitae officia consequuntur, nemo, odit itaque iusto iure tempora unde!</p>
+       <div class="btns">
+        <button>TAKE TEST</button>
+        <button>START LEARNING</button>
+       </div>
+      </div>
+       <!-- <div class="card">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt="image">
+       </div>
+       <div class="card">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt="image">
+       </div>
+       <div class="card">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt="image">
+       </div>
+       <div class="card">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt="image">
+       </div> -->
+    </div>
+    
+</body>
+</html>
