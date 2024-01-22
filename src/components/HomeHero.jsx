@@ -7,18 +7,18 @@ import ReadMore from '../Helpers/ReadMore';
 
 const home = [
   {
-    heading: "Flexible Hourly Car Rentals for Your Convenience",
-    subheading: "Discover the freedom of flexible travel with our hourly car rental service. Perfect for short trips, errands, or city explorations, our fleet of reliable vehicles awaits your command. Enjoy the convenience of on-demand transportation, hassle-free bookings, and pay only for the time you need.",
+    heading: "Hourly Rentals for Ultimate Flexibility",
+    subheading: "Need a car for just a few hours? Our hourly rental service is designed for your short-term transportation needs. Whether it's a quick meeting or a short excursion, RSR Tours provides you with the flexibility to rent a car by the hour.",
     tag: "Hourly Car Rental",
   },
   {
-    heading: "Explore Beyond Boundaries with Our Outstation Car Rentals",
-    subheading: "Embark on unforgettable journeys with our outstation car rental services. Whether it's a weekend getaway or an extended road trip, our well-maintained fleet and experienced drivers ensure a comfortable and safe travel experience. Discover new horizons with the convenience of door-to-door service and transparent pricing",
+    heading: "Outstation Journeys Made Comfortable",
+    subheading: "Planning a trip outside the city? RSR Tours provides reliable outstation transportation services. Enjoy a comfortable ride to your destination with our experienced drivers and well-maintained fleet. Your journey, our priority.",
     tag: "Outstation Car Rental in Bangalore",
   },
   {
-    heading: "Seamless Airport Transfers with Our Car Rental Services",
-    subheading: "Start and end your journey with ease using our airport car rental services. Enjoy stress-free airport transfers with our punctual and professional drivers. From the runway to your destination, our reliable fleet ensures a smooth and comfortable ride. Make your travel experience seamless with our convenient airport car rental options.",
+    heading: "Reliable Airport Taxi Services",
+    subheading: "Start and end your air travel with ease. RSR Tours offers reliable and timely airport taxi services. Our professional drivers ensure you reach the airport on time and provide a seamless experience for your airport transfers.",
     tag: "Airport Car Rental in Bangalore",
   },
   {
@@ -81,8 +81,9 @@ function HomeHero() {
           {home.map((item, index) => (
             <Carousel.Item key={index}>
                   <div className="hero-text p-lg-5 p-md-3 p-3">
-                    <h1 className=" fs-4 text-main text-start font-pt">{item.tag}</h1>
-                    <h1 className="heading text-black text-900 text-start font-pt">{item.heading}</h1>
+                    <h1 className=" fs-4 text-main text-start font-pt">Welcome to RSR Tours - Your Complete Transportation Solution</h1>
+                    <small>Discover a world of convenience with RSR Tours, where we redefine transportation services to cater to all your needs. From car rentals to hourly rentals, airport taxi services, local taxi rides, and outstation journeys, we've got you covered.</small>
+                    <h2 className="heading text-black text-900 text-start font-pt">{item.heading}</h2>
                     <p className="text-secondary fs-5 my-4 text-start font-pt"><ReadMore text={item.subheading} maxLength={100}/></p>
                     <div className="carousel-footer w-100 d-flex flex-wrap">
                       <button className='main-btn bg-dark text-white  m-2 hero-btn py-3'>Explore All Cars<i class="bi bi-chevron-double-right"></i></button>
