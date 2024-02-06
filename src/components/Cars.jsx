@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/cars.css'
 import { Link } from 'react-router-dom'
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const carsData = [
     {
@@ -47,58 +50,55 @@ const carsData = [
     }  
 ]
 function Cars() {
+    const [slidesToShow, setSlidesToShow] = useState(6); // Default to showing 3 slides
+    useEffect(() => {
+        // Check the screen width and update the number of slides to show
+        const handleResize = () => {
+          if (window.innerWidth <= 600) {
+            setSlidesToShow(2); // On smaller screens, show only 1 slide
+          } else if(window.innerWidth<=900) {
+            setSlidesToShow(3); // On wider screens, show 3 slides
+          }
+          else{
+              setSlidesToShow(6); // On wider screens, show 3 slides
+          }
+        };
+      
+        // Call the handleResize function initially and add a resize event listener
+        handleResize();
+        window.addEventListener('resize', handleResize);
+      
+        // Clean up the event listener when the component unmounts
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: slidesToShow,
+        slidesToScroll: 1,
+        cssEase: 'linear',
+        autoplay: true,
+        centerMode: true,
+        autoplaySpeed: 1000, // Change delay as needed
+      };
   return (
     <div className="bg-light-blue py-5">
         <h1 className="text-center fs-1 text-900">Available Cars for <span className="text-main">
         Rent</span></h1>
  <section className='cars container p-lg-5 p-3'>
         <div className="row justify-content-center">
-            {
-                carsData.map((item, index)=>(
-                    <div className="col-12 col-md-2 col-lg-4 d-flex justify-content-center">
-                        <div className="car-card bg-white p-3">
-                            <div className="car-header">
-                                <div className="car-card-hightlights d-flex justify-content-end">
-                                    <span className='fs-5 fav'><i class="bi bi-heart"></i></span>
-                                </div>
-                                <img src={item.image} alt={item.name} className="w-100 rounded-2" />
-                              
-                            </div>
-                            <div className="car-card-body">
-                            <p className="mt-2 fs-3 text-900"><i class="bi bi-taxi-front-fill mx-2"></i>{item.name}</p>
-                                <div className="rating d-flex gap-2 align-items-center">
-                                <i class="bi bi-star-fill fs-6 text-warning"></i>
-                                <i class="bi bi-star-fill fs-6 text-warning"></i>
-                                <i class="bi bi-star-fill fs-6 text-warning"></i>
-                                <i class="bi bi-star-fill fs-6 text-warning"></i>
-                                <i class="bi bi-star-fill fs-6 text-warning"></i>
-                                <small  className=''>(5.0)</small>
-                                </div>
-                                <div className="location-car px-1 py-3 bg-light-blue mt-2">
-                                    <div className="row">
-                                        <div className="col-6 align-items-center d-flex">
-                                        <span className="fs-6 d-flex gap-2 text-secondary">  <i class="bi bi-geo-alt-fill text-main"></i> Bangalore/india</span>
-                                        </div>
-                                        <div className="col-6 align-items-center d-flex justify-content-end">
-                                        <span className="fs-5 text-main">&#8377;{item.price} <span className="text-black">/ </span><small className=' text-secondary'>{item.categorie}</small></span>
-                                        </div>
-                                    </div>
-                              
-                            
-                                </div>
-                                <div className="row mt-3">
-                                    <div className="col-6">
-                                    <button className="gray-btn fs-6 py-3 rounded-5"> <i class="bi bi-calendar-minus mx-2"></i>RENT NOW</button>
-                                    </div>
-                                    <div className="col-6">
-                               <Link to='/' className='text-decoration-none'><button className="main-btn py-3 fs-6 rounded-5">Know More</button></Link>
-                                </div>
-                               </div>
-                            </div>
-                        </div>
+        <Slider {...settings}>
+                {carsData.map((item, index) => (
+                  <div className="col-12 col-md-4 col-lg-3 p-2" key={index}>
+                    <div className="car-card">
+                      <img src={item.image} alt="company" />
                     </div>
-                ))
-            }
+                  </div>
+                ))}
+              </Slider>
         </div>
     </section>
     <div className="text-center">

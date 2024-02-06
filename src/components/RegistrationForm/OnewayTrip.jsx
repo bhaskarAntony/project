@@ -20,7 +20,7 @@ function OnewayTrip() {
             placeholder="Pickup Location"
             aria-label="pickup location"
             aria-describedby="basic-addon1"
-            className='p-3'
+            className=''
           />
         </InputGroup>
           </div>
@@ -39,7 +39,7 @@ function OnewayTrip() {
           name='Pickup_date'
             aria-label="pickup_date"
             aria-describedby="basic-addon1"
-            className='p-3'
+            className=''
           />
         </InputGroup>
           </div>
@@ -56,7 +56,7 @@ function OnewayTrip() {
           name='Pickup_location'
             aria-label="pickup_time"
             aria-describedby="basic-addon1"
-            className='p-3'
+            className=''
           />
         </InputGroup>
           </div>
@@ -77,7 +77,7 @@ function OnewayTrip() {
           name='Drop_location'
             aria-label="drop_location"
             aria-describedby="basic-addon1"
-            className='p-3'
+            className=''
           />
         </InputGroup>
           </div>

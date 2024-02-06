@@ -8,19 +8,19 @@ function BookForm() {
       <form action="post">
         <div className="form-group mb-3">
             <label htmlFor="name" className="form-label">Name</label>
-            <input type="text" name='name' placeholder='Your Name' className="form-control p-3" required />
+            <input type="text" name='name' placeholder='Your Name' className="form-control" required />
         </div>
         <div className="form-group mb-3">
             <label htmlFor="phone" className="form-label">Mobile Number</label>
-            <input type="text" name='phone' placeholder='Your Phone Number' className="form-control p-3" required/>
+            <input type="text" name='phone' placeholder='Your Phone Number' className="form-control" required/>
         </div>
         <div className="form-group mb-3">
             <label htmlFor="email" className="form-label">Email</label>
-            <input type="text" name='email' placeholder='Your Email Address' className="form-control p-3" required />
+            <input type="text" name='email' placeholder='Your Email Address' className="form-control" required />
         </div>
         <div className="form-group mb-3">
             <label htmlFor="email" className="form-label">Company Name(optional)</label>
-            <input type="text" name='email' placeholder='company name' className="form-control p-3" />
+            <input type="text" name='email' placeholder='company name' className="form-control" />
         </div>
       
         <button className="main-btn w-100 py-3 mt-3 rounded-5">Book Apointment</button>

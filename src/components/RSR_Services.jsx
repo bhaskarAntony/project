@@ -33,13 +33,13 @@ function RSR_Services() {
             {
                 Services.map((item, index)=>(
                     <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-3" key={index}>
-                        <div className="service-card  border p-0 overflow-hidden rounded-5 bg-white p-2">
+                        <div className="service-card text-center  border p-0 overflow-hidden rounded-5 bg-white p-2">
                            <div className="overflow-hidden rounded-4 service-header">
                            <img src={item.image} alt={item.title} className="w-100 rounded-4" />
                            </div>
                            <div className="service-card-body d-flex flex-column justify-content-around p-2 pt-2">
-                           <p className="fs-3 text-900">{item.title}</p>
-                            <p className="fs-5 text-secondary">{item.description}</p>
+                           <p className="fs-4 text-900">{item.title}</p>
+                            <p className="fs-6 text-secondary">{item.description}</p>
                             <Link to='/' className='text-center text-main fs-5'>
                                 Learn More
                            </Link>

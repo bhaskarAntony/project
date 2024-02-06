@@ -19,7 +19,7 @@ function RoundTrip() {
               placeholder="Enter Pickup Location"
               aria-label="pickup-location"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className=''
             />
           </InputGroup>
          </div>
@@ -34,7 +34,7 @@ function RoundTrip() {
               placeholder="Enter Drop Location"
               aria-label="drop-location"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className=''
               name='Drop_location'
             />
           </InputGroup>
@@ -53,7 +53,7 @@ function RoundTrip() {
               placeholder="Enter Pickup date"
               aria-label="EnterPickup date"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className=''
             name='Pickup_date'
             />
           </InputGroup>
@@ -68,7 +68,7 @@ function RoundTrip() {
               placeholder="Enter Drop date"
               aria-label="Drop-date"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className=''
                name='Drop_date'
             />
           </InputGroup>
@@ -87,7 +87,7 @@ function RoundTrip() {
               placeholder="Enter Pickup time"
               aria-label="pickup-time"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className=''
               name='Pickup_time'
             />
           </InputGroup>
@@ -102,7 +102,7 @@ function RoundTrip() {
               placeholder="Enter Drop time"
               aria-label="Drop-time"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className=''
               name='Drop_time'
             />
           </InputGroup>

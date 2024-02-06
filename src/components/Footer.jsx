@@ -50,7 +50,7 @@ function Footer() {
                 </li>
                 <li className='mb-3 fs-6 d-flex gap-2'>
                 <i class="bi bi-telephone-fill text-main"></i>
-               <span>+0 (555) 123 45 67</span>
+               <span>+919019121137</span>
                 </li>
                 <li className='mb-3 fs-6 d-flex gap-2'>
                 <i class="bi bi-envelope-fill text-main"></i>

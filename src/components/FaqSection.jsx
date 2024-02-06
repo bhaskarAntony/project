@@ -32,7 +32,7 @@ const faqData = [
   },
   {
     "question": "How can I contact customer support in case of issues or emergencies?",
-    "answer": "You can contact our customer support team by phone at [phone number], or by email at [email address]. We are available 24/7 to assist you with any issues or emergencies."
+    "answer": "You can contact our customer support team by phone at +919019121137, or by email at rsrtoursandtravelsblr@gmail.com. We are available 24/7 to assist you with any issues or emergencies."
   },
 ]
 

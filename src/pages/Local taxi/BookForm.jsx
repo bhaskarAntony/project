@@ -8,7 +8,7 @@ function BookForm() {
       <form action="post">
         <div className="form-group mb-3">
             <label htmlFor="name" className="form-label">Name</label>
-            <input type="text" name='name' placeholder='Your Name' className="form-control p-3" required />
+            <input type="text" name='name' placeholder='Your Name' className="form-control" required />
         </div>
         <div className="form-group mb-3">
             <label htmlFor="phone" className="form-label">Mobile Number</label>

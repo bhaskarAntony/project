@@ -42,7 +42,7 @@ function Services() {
         }`}
       >
         <div className="service-description">
-          <h1 className="fs-1 text-900">{item.title}</h1>
+          <h1 className="fs-3 text-900">{item.title}</h1>
           <p className="fs-5 text-secondary">{item.description}</p>
         </div>
       </div>

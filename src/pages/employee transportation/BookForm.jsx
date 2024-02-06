@@ -20,7 +20,7 @@ function BookForm() {
         </div>
         <div className="form-group mb-3">
             <label htmlFor="email" className="form-label">Company Name(optional)</label>
-            <input type="text" name='email' placeholder='company name' className="form-control p-3" />
+            <input type="text" name='email' placeholder='company name' className="form-control border" />
         </div>
       
         <button className="main-btn w-100 py-3 mt-3 rounded-5">Book Apointment</button>
