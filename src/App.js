@@ -34,12 +34,15 @@ function App() {
        
         <a href="https://chat.whatsapp.com/Cp9mf4VFwrvC8PwEL7ldLV" target='_blank'> <img src={whatsappImage} alt='Rsr-tours&travels'/></a>
       </div>
-       {
+       {/* {
        loading ? (
         <PageLoader />
       ) : (
         <>
-        <Header/>
+       
+        </>
+      )}  */}
+       <Header/>
         <BottomNavigation/>
         <ScrollProgressBar/>
          <Progressbar/>
@@ -58,8 +61,6 @@ function App() {
         {/* <ScrollToTopButton/> */}
         <Footer/>
         </BrowserRouter>
-        </>
-      )} 
     </div>
   )
 }
