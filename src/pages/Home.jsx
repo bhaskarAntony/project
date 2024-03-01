@@ -38,11 +38,12 @@ function Home() {
       <Features/>
       <ContactNumber/>
       <RSR_Services/>
+     
+      <Choose/>
+      {/* <Cars/> */}
+      {/* <OneDayTrips/> */}
       <Transportation title="Discover the convenience of our
             employee transportation services and book with ease" subtitle="Our feature section showcases the main benefits of our services, providing a seamless experience for your employees" image="https://img.freepik.com/free-photo/business-team-way-meetings_329181-15205.jpg?w=740&t=st=1700284937~exp=1700285537~hmac=d09a79e40f69148734e0c7c467a07e987e3fea69aee78254b5ccb8df1ea02b92"/>
-      <Choose/>
-      <Cars/>
-      {/* <OneDayTrips/> */}
   
       <AboutUs/>
       <FaqSection/>

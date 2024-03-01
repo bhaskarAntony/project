@@ -5,7 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Dropdown } from 'bootstrap';
 import ApplyNow from '../Helpers/ApplyNow';
 import { Link } from 'react-router-dom';
-import brand from '../images/brand.png'
+import brand from '../images/logoRSR.jpg'
 
 function Header() {
   const [show, setShow] = useState(false);

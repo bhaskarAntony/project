@@ -18,6 +18,7 @@ import LocalTaxi from './pages/Local taxi/LocalTaxi'
 import OutStation from './pages/Outstation/Outstation'
 import AirportTaxi from './pages/Airport taxi/AirportTaxi'
 import LuxuryCar from './pages/Luxury Rental/LuxuryCar'
+import whatsappImage from '../src/images/whatsapp.png'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,10 @@ function App() {
   }, []); 
   return (
     <div className='overflow-hidden'>
+      <div className="whatsapp">
+       
+        <a href="https://chat.whatsapp.com/Cp9mf4VFwrvC8PwEL7ldLV" target='_blank'> <img src={whatsappImage} alt='Rsr-tours&travels'/></a>
+      </div>
        {
        loading ? (
         <PageLoader />
