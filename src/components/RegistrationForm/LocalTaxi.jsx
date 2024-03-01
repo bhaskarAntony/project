@@ -109,7 +109,7 @@ function LocalTaxi() {
               placeholder="Enter Location"
               aria-label="pickup_loaction"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className='p-2'
               onChange={handleChange}
             />
           </InputGroup>
@@ -122,7 +122,7 @@ function LocalTaxi() {
             <InputGroup.Text id="basic-addon1">
             <i class="bi bi-hourglass-top text-main"></i>
             </InputGroup.Text>
-            <Form.Select defaultValue="Select Hours" className='p-3' name='Rent_Hours'   onChange={handleChange}>
+            <Form.Select defaultValue="Select Hours" className='p-2' name='Rent_Hours'   onChange={handleChange}>
             <option>Select</option>
             <option>4 Hours- 40KM</option>
             <option>8 Hours- 80KM</option>
@@ -144,7 +144,7 @@ function LocalTaxi() {
             name='Pickup_date'
               aria-label="pickupDate"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className='p-2'
               onChange={handleChange}
             />
           </InputGroup>
@@ -162,7 +162,7 @@ function LocalTaxi() {
             name='Pickup_time'
               aria-label="pickupTime"
               aria-describedby="basic-addon1"
-              className='p-3'
+              className='p-2'
               onChange={handleChange}
             />
           </InputGroup>

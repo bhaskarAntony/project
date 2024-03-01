@@ -1,18 +1,18 @@
 :root {
-  --primary-color: #cb1545;
-  --primary-color-rgb: #cb1545;
+  --primary-color: #0074E4;
+  --primary-color-rgb: #0074E4;
   --secondary-color: #17951000;
-  --secondary-color-rgb: #cb1545;
+  --secondary-color-rgb: #0074E4;
   --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
     --red: #fc6838;
     --orange: #fd7e14;  
-    --yellow: #15cbaa;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
+    --yellow: #0074E4;
+    --green: #0074E4;
+    --teal: #0074E4;
+    --cyan: #0074E4;
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
@@ -46,8 +46,8 @@
     --wc-highligh-text: white;
     --wc-content-bg: #fff;
     --wc-subtext: #767676;
-    --primary-green: #15cb82;
-    --secondary-green:#00a56b;
+    --primary-green: #2560f5;
+    --secondary-green:#266afb;
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@600&family=DM+Sans:opsz@9..40&family=Fira+Sans:wght@900&family=Libre+Barcode+39+Extended+Text&family=Libre+Franklin&family=Noto+Sans:wght@300&family=Poppins:wght@400;500;800&family=Press+Start+2P&family=Rubik:wght@500&family=Tilt+Prism&family=Wallpoet&family=Work+Sans:wght@300&display=swap'); */
 
@@ -130,8 +130,8 @@
   font-weight: 500;
 }
 .btn-blue{
-  background-image: linear-gradient(to left, rgb(28, 171, 140), rgb(28, 171, 145));
-  border-radius: 100px;
+  background-image: linear-gradient(to left, rgb(32, 88, 232), rgb(0, 87, 175));
+  border-radius: 5px;
   text-align: center;
   /* font-family: Poppins; */
   font-weight: 700;
@@ -192,38 +192,25 @@ animation: img-anim 1s linear infinite alternate;
   background-color: transparent !important;
   border-radius: 0px !important;
   border: none !important;
-  font-weight: 900 !important;
- font-size: 1.2rem !important;
+ font-size: 1.1rem !important;
 }
 
-[class*="-hero"] .form-control {
-  border: none !important;
-}
-[class*="-hero"] .form-control:hover {
-  border: none !important;
-}
-.form-control:focus, .form-select:focus{
-  box-shadow: none !important;
-}
+
+
 .form-control{
-  border: 2px solid #dedddd !important;
-  border-radius: 20px !important;
+  border: 1px solid #dedddd !important;
+  border-radius: 5px !important;
 }
 .form-control:hover{
-  border: 2px solid var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
 }
 .input-group:hover{
-  border: 2px solid var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
   cursor: pointer;
 }
-.form-control::placeholder{
-  font-weight: 900 !important;
-}
-.hero .form-control{
-  border: none !important;
-}
+
 .input-group{
-  border: 2px solid #dedddd !important;
+  border: 1px solid #dedddd !important;
   border-radius: 20px;
 }
 .discover-body{

@@ -1,7 +1,7 @@
 .hero{
     position: relative;
     min-height: 80vh;
-    background:url('../images/banner.jpg') no-repeat center;
+    /* background:url('../images/banner.jpg') no-repeat center; */
     background-size: cover;
 }
 .home-hero .carousel-control-prev{
@@ -17,16 +17,15 @@
 }
 .home-hero{
   min-height: 80vh;
-  background: url(https://www.revv.co.in/assets/RentalImages/HomeScreen/heroCarousel/ST_LT_BG_2.png) no-repeat center;
-  background-size: cover;
+  background-color: hsl(210, 100%, 96%);
 }
 .hero-right{
     height: 100%;
     padding: 10px;
 }
 .book-card{
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 30px !important;
+  box-shadow: rgba(171, 171, 171, 0.24) 0px 3px 8px;
+  border-radius: 10px !important;
   overflow: hidden;
 }
 
@@ -84,9 +83,7 @@
     display: block;
   }
 
-  .hero-card{
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  }
+
 
 
   
