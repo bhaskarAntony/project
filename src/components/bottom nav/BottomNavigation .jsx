@@ -22,13 +22,13 @@ const BottomNavigation = () => {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/employee_transportation">
+          <Nav.Link href="/Employee-Transportation-Services-in-Bangalore">
             <FontAwesomeIcon icon={faBuilding} className='text-main' />
             <small className="d-block fs-6">Corporate</small>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/taxi/airport">
+          <Nav.Link href="/Airport-Taxi-Services-in-Bangaloret">
             <FontAwesomeIcon icon={faPlaneDeparture} className='text-main'/>
             <small className="d-block fs-6">Airport Taxi</small>
           </Nav.Link>

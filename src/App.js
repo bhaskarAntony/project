@@ -55,8 +55,8 @@ function App() {
           <Route path='/local_taxi' element={<LocalTaxi/>}/>
           <Route path='/outstation' element={<OutStation/>}/>
           <Route path='/car/luxury' element={<LuxuryCar/>}/>
-          <Route path='/taxi/airport' element={<AirportTaxi/>}/>
-          <Route path='/employee_transportation' element={<EmployeeTransportation/>}/>
+          <Route path='/Airport-Taxi-Services-in-Bangalore' element={<AirportTaxi/>}/>
+          <Route path='/Employee-Transportation-Services-in-Bangalore' element={<EmployeeTransportation/>}/>
         </Routes>
         {/* <ScrollToTopButton/> */}
         <Footer/>

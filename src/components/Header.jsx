@@ -36,13 +36,13 @@ function Header() {
           <hr />
           <li className="nav-item"><a href="/outstation" className="nav-link text-black nav-text">cabs for Outstation</a></li>
           <hr />
-          <li className="nav-item"><a href="/taxi/airport" className="nav-link text-black nav-text">Airport taxi</a></li>
+          <li className="nav-item"><a href="/Airport-Taxi-Services-in-Bangalore" className="nav-link text-black nav-text">Airport taxi</a></li>
           <hr />
           <li className="nav-item"><a href="/car/luxury" className="nav-link text-black nav-text">Luxury Car Rental</a></li>
           <hr />
           
           <li className="nav-item">
-        <li className="nav-item"><a href="/employee_transportation" className="nav-link text-black nav-text">Employee Transportation</a></li>
+        <li className="nav-item"><a href="/Employee-Transportation-Services-in-Bangalore" className="nav-link text-black nav-text">Employee Transportation</a></li>
           <hr />
           <li className="nav-item"><a href="/about" className="nav-link text-black nav-text">About Us</a></li>
           <hr />
@@ -69,12 +69,12 @@ function Header() {
           <ul class="dropdown-menu">
             <li className='list-group-item'><a class="dropdown-item" href="/local_taxi">Taxi For Local</a></li>
             <li className='list-group-item'><a class="dropdown-item" href="/outstation">cabs for Outstation</a></li>     
-            <li className='list-group-item'><a class="dropdown-item" href="/taxi/airport">Airport taxi</a></li>   
+            <li className='list-group-item'><a class="dropdown-item" href="/Airport-Taxi-Services-in-Bangalore">Airport taxi</a></li>   
             <li className='list-group-item'><a class="dropdown-item" href="/car/luxury">Luxury Car Rental</a></li>   
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/employee_transportation">Employee Transportation</a>
+          <a class="nav-link" aria-current="page" href="/Employee-Transportation-Services-in-Bangalore">Employee Transportation</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="/">Our Vehicles</a>
